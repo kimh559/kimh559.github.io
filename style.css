@@ -3,7 +3,7 @@ html {
 }
 
 h1 {
-    color: #fde3e1;
+    color: lavender;
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -20,5 +20,14 @@ h2 {
 li {
 	color: linen;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 15px;
+	font-size: 20px;
+}
+
+p {
+	color: linen;
+	font-size: 20px;
+}
+
+a {
+	color: lavender
 }
