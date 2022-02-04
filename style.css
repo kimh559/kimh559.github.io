@@ -1,7 +1,23 @@
 html {
-    background: pink;
+    background: #4b8219;
 }
 
 h1 {
-    color: blue;
+    color: #fde3e1;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+	color: linen;
+	font-family:'Times New Roman', Times, serif;
+}
+
+#listone {
+	color: linen;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+	color: linen;
+	font-family: 'Times New Roman', Times, serif;
 }
