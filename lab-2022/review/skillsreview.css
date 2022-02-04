@@ -14,6 +14,11 @@ h3 {
     color:linen;
 }
 
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: linen;
+}
+
 label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: linen;
