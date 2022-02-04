@@ -1,6 +1,5 @@
-html {
-    background: midnightblue;
-    opacity: 50%;
+body {
+    background-color: midnightblue;
 }
 
 h1 {
@@ -21,10 +20,20 @@ h3 {
     color:oldlace;
 }
 
+ul {
+    list-style-type: disc;
+    color: darksalmon;
+}
+
+a:hover {
+    color:azure;
+    font-size: 20px;
+}
+
 #notionlink {
     background-color: lavenderblush;
     color:darkgreen;
-
+    text-decoration: none;
 }
 
 
