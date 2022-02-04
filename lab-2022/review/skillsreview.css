@@ -14,7 +14,12 @@ h3 {
     color:linen;
 }
 
-p {
+img {
+    height: 90px;
+    width: 120px;
+}
+
+blockquote {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: linen;
 }
