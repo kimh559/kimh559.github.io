@@ -3,7 +3,7 @@ html {
 }
 
 h1 {
-    color: lavender;
+    color: mediumpurple;
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -29,5 +29,9 @@ p {
 }
 
 a {
-	color: lavender
+	color: mediumpurple;
+}
+
+#socialmedia {
+	font-weight: bold;
 }
