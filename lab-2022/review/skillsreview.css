@@ -8,12 +8,6 @@ h1 {
     color:lightcoral;
 }
 
-h2 {
-    font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: linen;
-}
-
 h3 {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
@@ -21,38 +15,45 @@ h3 {
 }
 
 label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: linen;
 }
 
 li {
     list-style-type: square;
     color:darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:hover {
     color:azure;
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #notionlink {
     background-color: lavenderblush;
     color:darkgreen;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #googledrive {
     text-decoration: none;
     color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #canvaslink {
     background-color: lavenderblush;
     color:darkgreen;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #dropbox {
     text-decoration: none;
     color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
