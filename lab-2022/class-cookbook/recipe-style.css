@@ -58,4 +58,9 @@ ol {
     align-items: center;
 }
 
+iframe {
+    display: inline-block;
+    align-items: center;
+}
+
 
