@@ -4,11 +4,12 @@ html {
 
 body {
     color:rosybrown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     color:darkolivegreen;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:;
 }
 
 #greenshadow {
@@ -17,12 +18,12 @@ h1 {
 
 h3 {
     color:darkolivegreen;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
     color:rosybrown;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #poem {
@@ -36,18 +37,18 @@ p {
 
 ul {
     color: rosybrown;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display:inline-block;
     text-align: left;
 }
 
 #ordered {
-    text-align: left;
+    text-align: center;
 }
 
 ol {
     color:rosybrown;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display:inline-block;
     text-align: left;
 }
