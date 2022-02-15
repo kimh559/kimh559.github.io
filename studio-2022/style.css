@@ -2,6 +2,7 @@ body {
     background-color:whitesmoke;
     color:teal;
     align-items: center;
+    display: inline-block;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
