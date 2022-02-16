@@ -32,7 +32,7 @@ p {
 }
 
 #unordered {
-    text-align: center;
+    text-align: left;
 }
 
 ul {
@@ -44,7 +44,7 @@ ul {
 
 #ordered {
     text-align: center;
-    align-items: center;
+    align-items: right;
 }
 
 ol {
@@ -63,4 +63,18 @@ iframe {
     align-items: center;
 }
 
+#box1 {
+    background-color: lightgrey;
+    width: 500px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
 
+#box2 {
+    background-color: lightgrey;
+    width: 600px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
