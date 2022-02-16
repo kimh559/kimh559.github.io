@@ -32,7 +32,7 @@ p {
 }
 
 #unordered {
-    text-align: left;
+    text-align: center;
 }
 
 ul {
@@ -44,7 +44,7 @@ ul {
 
 #ordered {
     text-align: center;
-    align-items: right;
+    align-items: center;
 }
 
 ol {
@@ -56,6 +56,7 @@ ol {
 
 #stickers {
     align-items: center;
+    text-align:center
 }
 
 iframe {
@@ -64,17 +65,17 @@ iframe {
 }
 
 #box1 {
-    background-color: lightgrey;
-    width: 500px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    background-color: antiquewhite;
+    width: 300px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
 }
 
 #box2 {
-    background-color: lightgrey;
-    width: 600px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    background-color: antiquewhite;
+    width: 400px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
 }
