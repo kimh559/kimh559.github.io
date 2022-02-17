@@ -1,0 +1,37 @@
+body {
+    margin:0;
+    background-color:rgb(182, 202, 145);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(182, 202, 145);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:sienna;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(108, 124, 78);
+  color: rgb(236, 198, 181);
+}
+
+.active {
+  background-color:moccasin;
+  color:rgb(182, 202, 145);
+}
