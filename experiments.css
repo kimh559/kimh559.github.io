@@ -16,12 +16,12 @@
     width: 800px;
     height: 500px;
     line-height: 120px;
-    vertical-align: center;
+    vertical-align:middle;
     text-align: center;
     margin: 30px;
   }
   body {
-    background: url(https://giphy.com/gifs/van-gogh-joelremygif-1ioTgyF4TrswFpJDB8/fullscreen) no-repeat center center;
+    background: url(https://miro.medium.com/max/1400/0*RQp7rf-rTOODM_FY.jpg) no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
