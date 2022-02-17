@@ -1,0 +1,62 @@
+body {
+    background-color:whitesmoke;
+    color:teal;
+    align-items: center;
+    display: inline-block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:midnightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color:teal;
+    align-items: center;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#selene {
+    color:silver;
+    align-items: center;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:
+    0 0 2px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 7px rgb(205, 212, 212),
+    0 0 10px rgb(176, 196, 202),
+    0 0 12px rgb(153, 155, 155),
+}
+
+#vermeer {
+    color:silver;
+    align-items: center;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:
+    0 0 2px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 7px rgb(205, 212, 212),
+    0 0 10px rgb(176, 196, 202),
+    0 0 12px rgb(153, 155, 155),
+}
+
+#cassatt {
+    color:silver;
+    align-items: center;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:
+    0 0 2px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 7px rgb(205, 212, 212),
+    0 0 10px rgb(176, 196, 202),
+    0 0 12px rgb(153, 155, 155),
+}
