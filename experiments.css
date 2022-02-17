@@ -1,3 +1,4 @@
+
 .black {
     background: black;
     color: white;
@@ -10,7 +11,7 @@
   }
   /*////////////////////////////*/
   .heading {
-    font-family: sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 80px;
     width: 500px;
     height: 120px;
@@ -20,7 +21,7 @@
     margin: 30px;
   }
   body {
-    background: url(https://unsplash.it/1600?image=974) no-repeat center center;
+    background: url(https://miro.medium.com/max/1400/0*RQp7rf-rTOODM_FY.jpg) no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
