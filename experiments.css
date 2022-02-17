@@ -11,13 +11,11 @@
   }
   /*////////////////////////////*/
   .heading {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 150px;
-    width: auto;
+    font-family: sans-serif;
+    font-size: 200px;
+    width: 1200px;
     height: max-content;
     line-height: 120px;
-    display: inline-block;
-    vertical-align: middle;
     text-align: center;
     margin: auto;
   }
