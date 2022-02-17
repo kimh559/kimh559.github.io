@@ -13,8 +13,8 @@
   .heading {
     font-family:'Times New Roman', Times, serif;
     font-size: 150px;
-    width: 1000px;
-    height: 700px;
+    width: max-content;
+    height: max-content;
     line-height: 120px;
     vertical-align: middle;
     text-align: center;
