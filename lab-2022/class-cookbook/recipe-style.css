@@ -56,6 +56,7 @@ ol {
 
 #stickers {
     float: center;
+    margin: auto;
 }
 
 iframe {
@@ -68,8 +69,7 @@ iframe {
     width: 300px;
     border: none;
     padding: 10px;
-    margin: 10px;
-    float: center;
+    margin: auto;
 }
 
 #box2 {
@@ -77,6 +77,5 @@ iframe {
     width: 475px;
     border: none;
     padding: 10px;
-    margin: 10px;
-    float: center;
+    margin: auto; 
 }
