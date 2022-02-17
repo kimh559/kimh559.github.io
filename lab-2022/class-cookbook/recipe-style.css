@@ -36,7 +36,6 @@ p {
 }
 
 ul {
-    background-color: antiquewhite;
     color: rosybrown;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display:inline-block;
@@ -49,7 +48,6 @@ ul {
 }
 
 ol {
-    background-color: antiquewhite;
     color:rosybrown;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display:inline-block;
@@ -65,4 +63,20 @@ iframe {
     align-items: center;
 }
 
+#box1 {
+    background-color: antiquewhite;
+    width: 300px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    float: center;
+}
 
+#box2 {
+    background-color: antiquewhite;
+    width: 450px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    float: center;
+}
