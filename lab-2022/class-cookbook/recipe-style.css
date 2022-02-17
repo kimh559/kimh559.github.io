@@ -14,11 +14,14 @@ h1 {
 
 h1:hover {
     color: burlywood;
-    text-shadow: 2px 2px 1px olive;
 }
 
 #greenshadow {
     text-shadow: 2px 2px 1px burlywood;
+}
+
+#greenshadow:hover {
+    text-shadow: 2px 2px 1px olive;
 }
 
 h3 {
@@ -28,6 +31,7 @@ h3 {
 
 h3:hover {
     font-style: italic;
+    font-family: cursive;
 }
 
 p {
