@@ -55,8 +55,8 @@ ol {
 }
 
 #stickers {
-    float: center;
     margin: auto;
+    align-content: center;
 }
 
 iframe {
