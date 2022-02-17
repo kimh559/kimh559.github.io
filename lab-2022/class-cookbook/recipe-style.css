@@ -68,22 +68,25 @@ iframe {
     background-color: antiquewhite;
     width: 300px;
     border: none;
-    padding: 50px;
+    padding: 20px;
     margin: auto;
+    position: absolute;
 }
 
 #box2 {
     background-color: antiquewhite;
-    width: 475px;
+    width: 460px;
     border: none;
-    padding: 50px;
+    padding: 20px;
     margin: auto; 
+    position: absolute;
 }
 
 #box3 {
     background-color: antiquewhite;
-    width: 400px;
+    width: 390px;
     border: none;
-    padding: 50px;
+    padding: 20px;
     margin: auto;
+    position: absolute;
 }
