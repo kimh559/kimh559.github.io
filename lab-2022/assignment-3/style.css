@@ -3,12 +3,17 @@ body {
     background-color:rgb(182, 202, 145);
 }
 
+h1 {
+    color:rgb(108, 124, 78);
+    font-size: 50px;
+    font-style: italic;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(182, 202, 145);
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,5 +38,5 @@ li a:hover:not(.active) {
 
 .active {
   background-color:moccasin;
-  color:rgb(182, 202, 145);
+  color:rgb(108, 124, 78);
 }
