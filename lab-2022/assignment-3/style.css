@@ -11,7 +11,16 @@ h1 {
 
 h3 {
     color:rgb(108, 124, 78);
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.leftheadings {
+    color: sienna;
+}
+
+#paragraph1 {
+    color: rgb(236, 198, 181);
+    text-align: justify;
 }
 
 ul {
