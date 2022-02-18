@@ -7,6 +7,7 @@ h1 {
     color:rgb(108, 124, 78);
     font-size: 50px;
     font-style: italic;
+    text-align: center;
 }
 
 h2 {
@@ -16,28 +17,37 @@ h2 {
 
 .leftheadings {
     color: sienna;
-}
-
-#paragraph1 {
-    color: rgb(108, 124, 78);
-    text-align: justify;
     background-color:rgb(236, 198, 181);
+    width: 400px;
+    height: 500px;
     border: 30px;
     padding: 20px;
     margin: auto;
 }
 
-#unordered {
-  text-align:left;
-  align-items:center;
-}
-
-#process {
-    display:inline-block;
+#paragraph1 {
+    color: rgb(108, 124, 78);
     text-align: left;
+    background-color:rgb(236, 198, 181);
+    width: 400px;
+    height: 500px;
+    border: 30px;
+    padding: 20px;
+    margin: auto;
 }
 
-#nav-bar {
+ol {
+    color: rgb(108, 124, 78);
+    text-align: left;
+    background-color:rgb(236, 198, 181);
+    width: 600px;
+    height: 1000px;
+    border: 30px;
+    padding: 20px;
+    margin: auto;
+}
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
