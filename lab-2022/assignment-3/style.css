@@ -3,6 +3,15 @@ body {
     background-color:rgb(182, 202, 145);
 }
 
+.textbox {
+    margin: 10px;
+    padding: 30px;
+    position: relative;
+    top: 30%;
+    background-color: rgb(236, 198, 181);
+    border: 10px sienna;
+}
+
 h1 {
     color:rgb(108, 124, 78);
     font-size: 50px;
@@ -17,34 +26,16 @@ h2 {
 
 .leftheadings {
     color: sienna;
-    background-color:rgb(236, 198, 181);
-    width: 300px;
-    height: 100px;
-    border: 30px;
-    padding: 20px;
-    margin: auto;
 }
 
 #paragraph1 {
     color: rgb(108, 124, 78);
     text-align: left;
-    background-color:rgb(236, 198, 181);
-    width: 300px;
-    height: 200px;
-    border: 30px;
-    padding: 20px;
-    margin: auto;
 }
 
 ol {
     color: rgb(108, 124, 78);
     text-align: left;
-    background-color:rgb(236, 198, 181);
-    width: 300px;
-    height: 300px;
-    border: 30px;
-    padding: 20px;
-    margin: auto;
 }
 
 ul {
