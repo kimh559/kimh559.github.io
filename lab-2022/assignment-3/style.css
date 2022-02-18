@@ -3,15 +3,6 @@ body {
     background-color:rgb(182, 202, 145);
 }
 
-.textbox {
-    margin: 10px;
-    padding: 30px;
-    position: relative;
-    top: 30%;
-    background-color: rgb(236, 198, 181);
-    border: 10px sienna;
-}
-
 h1 {
     color:rgb(108, 124, 78);
     font-size: 50px;
@@ -68,4 +59,14 @@ li a:hover:not(.active) {
 .active {
   background-color:moccasin;
   color:rgb(108, 124, 78);
+}
+
+.textbox {
+  margin: 10px;
+  padding: 30px;
+  position: relative;
+  top: 30%;
+  width: 500px;
+  height: 1000px;
+  background-color: rgb(236, 198, 181);
 }
