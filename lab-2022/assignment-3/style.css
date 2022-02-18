@@ -8,6 +8,8 @@ h1 {
     font-size: 50px;
     font-style: italic;
     text-align: center;
+    position: relative;
+    left: 45%;
 }
 
 h2 {
@@ -67,7 +69,7 @@ li a:hover:not(.active) {
   padding: 30px;
   position: relative;
   top: 30%;
-  width: 500px;
-  height: 1000px;
+  width: 700px;
+  height: max-content;
   background-color: rgb(236, 198, 181);
 }
