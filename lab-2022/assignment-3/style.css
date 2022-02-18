@@ -27,7 +27,17 @@ h2 {
     margin: auto;
 }
 
-ul {
+#unordered {
+  text-align:left;
+  align-items:center;
+}
+
+#process {
+    display:inline-block;
+    text-align: left;
+}
+
+#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
