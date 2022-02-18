@@ -18,8 +18,8 @@ h2 {
 .leftheadings {
     color: sienna;
     background-color:rgb(236, 198, 181);
-    width: 400px;
-    height: 500px;
+    width: max-content;
+    height: 200px;
     border: 30px;
     padding: 20px;
     margin: auto;
@@ -29,7 +29,7 @@ h2 {
     color: rgb(108, 124, 78);
     text-align: left;
     background-color:rgb(236, 198, 181);
-    width: 400px;
+    width: max-content;
     height: 500px;
     border: 30px;
     padding: 20px;
@@ -40,8 +40,8 @@ ol {
     color: rgb(108, 124, 78);
     text-align: left;
     background-color:rgb(236, 198, 181);
-    width: 600px;
-    height: 1000px;
+    width: max-content;
+    height: 500px;
     border: 30px;
     padding: 20px;
     margin: auto;
