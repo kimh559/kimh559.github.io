@@ -21,6 +21,10 @@ h2 {
 #paragraph1 {
     color: rgb(108, 124, 78);
     text-align: justify;
+    background-color:rgb(236, 198, 181);
+    border: 30px;
+    padding: 20px;
+    margin: auto;
 }
 
 ul {
