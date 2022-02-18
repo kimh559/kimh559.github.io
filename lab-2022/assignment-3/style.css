@@ -9,7 +9,7 @@ h1 {
     font-style: italic;
 }
 
-h3 {
+h2 {
     color:rgb(108, 124, 78);
     font-size: 20px;
 }
@@ -19,7 +19,7 @@ h3 {
 }
 
 #paragraph1 {
-    color: rgb(236, 198, 181);
+    color: rgb(108, 124, 78);
     text-align: justify;
 }
 
