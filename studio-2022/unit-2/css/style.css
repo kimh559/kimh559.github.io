@@ -28,9 +28,3 @@
     padding: 0;
     height: 100%;
   }
-  html {
-    height: 100%;
-    /* html needs a background color for -mix-blend-mode
-       to work in chrome */
-    background: white;
-  }
