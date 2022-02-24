@@ -1,37 +1,37 @@
-.black {
-    background: black;
-    color: white;
-    mix-blend-mode: multiply;
-  }
-   .white {
-    background: white;
-    color: black;
-    mix-blend-mode: screen;
-  }
-  /*////////////////////////////*/
-  .heading {
-    font-family: sans-serif;
-    font-size: 200px;
-    width: 100%;
-    height: 700px;
-    line-height: 250px;
-    text-align: center;
-  }
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
-  span {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-  }
-  
-  body {
-    background: url(https://miro.medium.com/max/1400/0*RQp7rf-rTOODM_FY.jpg) no-repeat center center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
