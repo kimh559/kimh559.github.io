@@ -2,6 +2,13 @@ body {
   background-color: rgb(19, 17, 110);
 }
 
+.myBtn {
+  height: 4%;
+  width: 4%;
+  background-color: rgb(255, 217, 0);
+  border-radius: 50%;
+}
+
 .modal {
   display: none; /* Hidden by default */
   position: sticky; /* Stay in place */
@@ -19,9 +26,9 @@ body {
   background-color: rgb(116, 137, 197);
   opacity: 70%;
   margin: auto;
-  padding: 20px;
+  padding: 50px;
+  padding-bottom: 15%;
   border: none;
-  border-radius: 2%;
   width: 70%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: .6875em;
