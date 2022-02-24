@@ -4,9 +4,9 @@ body {
 
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: sticky; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 70px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -23,7 +23,7 @@ body {
   margin: auto;
   padding: 20px;
   border: none;
-  border-radius: 20%;
+  border-radius: 5%;
   width: 70%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: .6875em;
