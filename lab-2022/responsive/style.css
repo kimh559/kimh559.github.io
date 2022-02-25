@@ -78,22 +78,36 @@ body {
     p {
        color:rgb(77, 65, 121);
        font-family: Georgia, 'Times New Roman', Times, serif; 
-       font-size: 1.2em;
+       font-size: 1.6em;
        line-height: 140%;
     }
   }
 
   @media screen and (min-width: 1200px) {
+    body {
+      background-color:rgb(77, 65, 121);
+      margin: 30%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
     h1 {
-      
+      color:rgb(221, 226, 173);
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: oblique, italic;
+      font-size: 2.3em;
     }
 
     h2 {
-
+      color:rgb(35, 54, 24);
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1.9em;
     }
 
     p {
-        
+       color:rgb(128, 117, 167);
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size:1.3em;
+       line-height: 160%; 
     }
   }
 
