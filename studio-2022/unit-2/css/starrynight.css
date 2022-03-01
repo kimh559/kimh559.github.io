@@ -36,17 +36,15 @@ input[type=checkbox] {
   
 #modal1:target {
     display: block;
-    background-color: black;
-    opacity: 30%;
+    background-color: none;
     border: none;
     position: sticky;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     height: 70em;
     width: 40em;
     overflow: scroll;
-    z-index: 1;
     color: white;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
