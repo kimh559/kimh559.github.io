@@ -15,6 +15,19 @@ body {
   width: 10px;
 }
 
+#button2 {
+  background-color: white;
+  bordeR: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  height: 17px;
+  width: 12px;
+}
+
 .modal {
   display: none; /* Hidden by default */
   position: sticky; /* Stay in place */
@@ -28,7 +41,20 @@ body {
 }
 
 /* Modal Content */
-.modal-content {
+.modal-content1 {
+  background-color: rgb(116, 137, 197);
+  opacity: 70%;
+  margin: auto;
+  padding: 50px;
+  padding-bottom: 15%;
+  border: none;
+  width: 70%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: .6875em;
+  text-align: justify;
+}
+
+.modal-content2 {
   background-color: rgb(116, 137, 197);
   opacity: 70%;
   margin: auto;
