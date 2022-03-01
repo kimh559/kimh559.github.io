@@ -35,7 +35,7 @@ input[type=checkbox] {
 }
   
 #modal1:target {
-    display: none;
+    display: inline-block;
     background-color: none;
     border: none;
     position: sticky;
