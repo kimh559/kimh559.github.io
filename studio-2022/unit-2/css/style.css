@@ -9,10 +9,10 @@ body {
   cursor: pointer;
   border-radius: 50%;
   position: fixed;
-  top: 10%;
-  left: 30%;
-  height: 5px;
-  width: 5px;
+  top: 30%;
+  left: 25%;
+  height: 15px;
+  width: 10px;
 }
 
 .modal {
