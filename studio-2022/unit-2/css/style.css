@@ -2,15 +2,12 @@ body {
   background-color: rgb(19, 17, 110);
 }
 
-.button {
+.button1 {
   background-color: white;
   border: none;
   display: inline-block;
   cursor: pointer;
   border-radius: 50%;
-}
-
-.button1 {
   position: fixed;
   top: 10%;
   left: 30%;
