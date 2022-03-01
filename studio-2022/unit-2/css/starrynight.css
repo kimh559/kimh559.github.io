@@ -3,7 +3,7 @@ body {
 }
 
 [id^=modal] {
-    display: none;
+    display: inline-block;
     border: none;
     position: fixed;
     transform: translate(-50%,-50%);
