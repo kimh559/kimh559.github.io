@@ -42,7 +42,7 @@ input[type=checkbox] {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 70em;
+    height: 45em;
     width: 40em;
     overflow: scroll;
     color: white;
