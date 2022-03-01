@@ -5,7 +5,7 @@ body {
 [id^=modal] {
     background-color: black;
     opacity: 30%;
-    display: inline-block;
+    display: none;
     border: none;
     position: fixed;
     top: 20%;
@@ -45,14 +45,50 @@ input[type=checkbox] {
   
 #modal1:target {
     display: block;
+    background-color: black;
+    opacity: 30%;
+    border: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-height: 3em;
+    min-width: 5em;
+    max-width: 10em;
+    overflow: scroll;
+    z-index: 1;
     }
   
 #modal2:target {
     display: block;
+    background-color: black;
+    opacity: 30%;
+    border: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-height: 3em;
+    min-width: 5em;
+    max-width: 10em;
+    overflow: scroll;
+    z-index: 1;
     }
 
 #modal3:target {
     display: block;
+    background-color: black;
+    opacity: 30%;
+    border: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-height: 3em;
+    min-width: 5em;
+    max-width: 10em;
+    overflow: scroll;
+    z-index: 1;
 }
   
 [id^=modal] a {
