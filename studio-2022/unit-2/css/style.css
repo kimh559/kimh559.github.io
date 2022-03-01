@@ -2,11 +2,20 @@ body {
   background-color: rgb(19, 17, 110);
 }
 
-.myBtn {
-  height: 4%;
-  width: 4%;
-  background-color: rgb(255, 217, 0);
+.button {
+  background-color: white;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
   border-radius: 50%;
+}
+
+.button1 {
+  position: fixed;
+  top: 10%;
+  left: 30%;
+  height: 5px;
+  width: 5px;
 }
 
 .modal {
