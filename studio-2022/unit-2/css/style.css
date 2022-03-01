@@ -2,7 +2,7 @@ body {
   background-color: rgb(19, 17, 110);
 }
 
-.button1 {
+#button1 {
   background-color: white;
   border: none;
   display: inline-block;
