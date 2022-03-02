@@ -4,7 +4,7 @@ html {
 
 [id^=modal] {
   display: none;
-  position: fixed;
+  position: sticky;
   border: none;
   top: 50%;
   left: 50%;
