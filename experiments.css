@@ -10,9 +10,10 @@ html {
   left: 50%;
   transform: translate(-50%,-50%);
   max-height: 37.5em;
-  min-width: 49em;
-  max-width: 50em;
+  min-width: 39em;
+  max-width: 40em;
   overflow: scroll;
+  color: white;
   }
 
 input[type=checkbox] {
