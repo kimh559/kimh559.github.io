@@ -32,6 +32,18 @@ input[type=checkbox] {
   box-shadow: 0px 0px 19px rgb(225, 225, 233), 0px 0px 20px rgb(182, 182, 206), 0px 0px 21px rgb(147, 147, 192), 0px 0px 22px rgb(101, 101, 163);
 }
 
+#star2 {
+  display: flex;
+  position: fixed;
+  top: 55%;
+  left: 40%;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  background-color: white;
+  box-shadow: 0px 0px 21px rgb(225, 225, 233), 0px 0px 22px rgb(182, 182, 206), 0px 0px 23px rgb(147, 147, 192), 0px 0px 24px rgb(101, 101, 163); 
+}
+
 #modal1:target {
   display: block;
   }
