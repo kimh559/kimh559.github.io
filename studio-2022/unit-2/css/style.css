@@ -9,9 +9,11 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  max-height: 37.5em;
-  min-width: 39em;
-  max-width: 40em;
+  padding-top: 30%;
+  padding-bottom: 30%; 
+  max-height: 50em;
+  min-width: 34em;
+  max-width: 35em;
   overflow: scroll;
   }
 
