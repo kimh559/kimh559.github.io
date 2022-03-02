@@ -29,7 +29,7 @@ input[type=checkbox] {
   width: 20px;
   background-color: white;
   opacity: 90%;
-  box-shadow: 0px 0px 16px rgb(186, 186, 219), 0px 0px 17px rgb(103, 103, 173), 0px 0px 18px rgb(61, 61, 146);
+  box-shadow: 0px 0px 19px rgb(225, 225, 233), 0px 0px 20px rgb(182, 182, 206), 0px 0px 21px rgb(147, 147, 192), 0px 0px 22px rgb(101, 101, 163);
 }
 
 #modal1:target {
