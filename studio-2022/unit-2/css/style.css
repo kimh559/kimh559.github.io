@@ -13,7 +13,6 @@ html {
   min-width: 39em;
   max-width: 40em;
   overflow: scroll;
-  color: white;
   }
 
 input[type=checkbox] {
@@ -48,6 +47,7 @@ input[type=checkbox] {
 
 #modal1:target {
   display: block;
+  color: white;
   }
 
 #modal2:target {
