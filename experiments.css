@@ -1,13 +1,13 @@
 [id^=modal] {
   display: none;
+  position: sticky;
   border: 1px solid red;
-  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  max-height: 50em;
-  min-width: 20em;
-  max-width: 21em;
+  max-height: 37.5em;
+  min-width: 49em;
+  max-width: 50em;
   }
 
 input[type=checkbox] {
