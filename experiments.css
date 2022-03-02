@@ -8,6 +8,7 @@
   max-height: 37.5em;
   min-width: 49em;
   max-width: 50em;
+  overflow: scroll;
   }
 
 input[type=checkbox] {
