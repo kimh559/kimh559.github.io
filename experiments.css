@@ -1,37 +1,28 @@
+[id^=modal] {
+  display: none;
+  border: 1px solid red;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-height: 3em;
+  min-width: 5em;
+  max-width: 10em;
+  }
 
-.black {
-    background: black;
-    color: white;
-    mix-blend-mode: multiply;
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0 0 0 0);
   }
-   .white {
-    background: white;
-    color: black;
-    mix-blend-mode: screen;
+
+#modal1:target {
+  display: block;
   }
-  /*////////////////////////////*/
-  .heading {
-    font-family: sans-serif;
-    font-size: 200px;
-    width: 100%;
-    height: 150%;
-    line-height: 250px;
-    text-align: center;
+
+#modal2:target {
+  display: block;
   }
-  body {
-    background: url(https://miro.medium.com/max/1400/0*RQp7rf-rTOODM_FY.jpg) no-repeat center center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-  html {
-    height: 100%;
-    /* html needs a background color for -mix-blend-mode
-       to work in chrome */
-    background: white;
+  
+[id^=modal] a {
+  float: right;
   }
