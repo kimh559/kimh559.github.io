@@ -10,7 +10,7 @@ html {
   left: 35%;
   padding-top: 5%;
   padding-bottom: 10%; 
-  max-height: 50em;
+  max-height: 30em;
   min-width: 24em;
   max-width: 25em;
   }
@@ -207,6 +207,12 @@ input[type=checkbox] {
 
   #modal3:target {
     display: block;
+    color: white;
+    overflow: auto;
+  }
+
+  #modal4:target {
+    display:block;
     color: white;
     overflow: auto;
   }
