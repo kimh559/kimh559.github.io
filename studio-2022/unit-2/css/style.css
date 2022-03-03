@@ -32,7 +32,7 @@ input[type=checkbox] {
   opacity: 90%;
   box-shadow: 0px 0px 19px rgb(241, 241, 245), 0px 0px 20px rgb(225, 225, 233), 0px 0px 21px rgb(179, 179, 206), 0px 0px 22px rgb(143, 143, 182);
   animation-name: star-glow1;
-  animation-duration: 15s; 
+  animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
   animation-delay: none;
   animation-direction: normal;
@@ -75,7 +75,7 @@ input[type=checkbox] {
   background-color: white;
   box-shadow: 0px 0px 21px rgb(241, 241, 245), 0px 0px 22px rgb(225, 225, 233), 0px 0px 23px rgb(179, 179, 206), 0px 0px 24px rgb(143, 143, 182);
   animation-name: star-glow2;
-  animation-duration: 15s; 
+  animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
   animation-delay: none;
   animation-direction: normal;
@@ -118,7 +118,7 @@ input[type=checkbox] {
   background-color: white;
   box-shadow: 0px 0px 19.5px rgb(241, 241, 245), 0px 0px 20px rgb(225, 225, 233), 0px 0px 21px rgb(179, 179, 206), 0px 0px 22px rgb(143, 143, 182);
   animation-name: star-glow3;
-  animation-duration: 15s; 
+  animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
   animation-delay: none;
   animation-direction: normal;
@@ -161,7 +161,7 @@ input[type=checkbox] {
   background-color: white;
   box-shadow: 0px 0px 18.5px rgb(241, 241, 245), 0px 0px 19px rgb(225, 225, 233), 0px 0px 20px rgb(179, 179, 206), 0px 0px 21px rgb(143, 143, 182);
   animation-name: star-glow4;
-  animation-duration: 15s; 
+  animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
   animation-delay: none;
   animation-direction: normal;
@@ -204,7 +204,7 @@ input[type=checkbox] {
   background-color: white;
   box-shadow: 0px 0px 20px rgb(241, 241, 245), 0px 0px 21px rgb(225, 225, 233), 0px 0px 22px rgb(179, 179, 206), 0px 0px 23px rgb(143, 143, 182);
   animation-name: star-glow5;
-  animation-duration: 15s; 
+  animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
   animation-delay: none;
   animation-direction: normal;
