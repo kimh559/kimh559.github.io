@@ -193,6 +193,49 @@ input[type=checkbox] {
   }
 }
 
+#star5 {
+  display: flex;
+  position: fixed;
+  top: 64%;
+  left: 77%;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(241, 241, 245), 0px 0px 21px rgb(225, 225, 233), 0px 0px 22px rgb(179, 179, 206), 0px 0px 23px rgb(143, 143, 182);
+  animation-name: star-glow5;
+  animation-duration: 15s; 
+  animation-timing-function: ease-in-out; 
+  animation-delay: none;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-play-state: running; 
+}
+
+@keyframes star-glow5 {
+  0% {
+    opacity: .3;
+    background-color: white;
+  }
+  20% {
+    opacity: .6;
+    background-color: white;
+  }
+  70% {
+    opacity: .4;
+    background-color: white;
+  }
+  90% {
+    opacity: 1;
+    background-color: white;
+  }
+  100% {
+    opacity: .3;
+    background-color: white;
+  }
+}
+
 #modal1:target {
   display: block;
   color: white;
@@ -213,6 +256,12 @@ input[type=checkbox] {
 
   #modal4:target {
     display:block;
+    color: white;
+    overflow: auto;
+  }
+
+  #modal5:target {
+    display: block;
     color: white;
     overflow: auto;
   }
