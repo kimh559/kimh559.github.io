@@ -7,7 +7,7 @@ html {
   position: sticky;
   border: none;
   top: 15%;
-  left: 30%;
+  left: 35%;
   padding-top: 5%;
   padding-bottom: 10%; 
   max-height: 50em;
@@ -23,26 +23,26 @@ input[type=checkbox] {
 #star1 {
   display: flex;
   position: fixed;
-  top: 30%;
-  left: 30%;
+  top: 40%;
+  left: 20%;
   border-radius: 50%;
   height: 20px;
   width: 20px;
   background-color: white;
   opacity: 90%;
-  box-shadow: 0px 0px 19px rgb(225, 225, 233), 0px 0px 20px rgb(182, 182, 206), 0px 0px 21px rgb(147, 147, 192), 0px 0px 22px rgb(101, 101, 163);
+  box-shadow: 0px 0px 19px rgb(241, 241, 245), 0px 0px 20px rgb(225, 225, 233), 0px 0px 21px rgb(179, 179, 206), 0px 0px 22px rgb(143, 143, 182);
 }
 
 #star2 {
   display: flex;
   position: fixed;
-  top: 55%;
-  left: 40%;
+  top: 60%;
+  left: 35%;
   border-radius: 50%;
   height: 22px;
   width: 22px;
   background-color: white;
-  box-shadow: 0px 0px 21px rgb(225, 225, 233), 0px 0px 22px rgb(182, 182, 206), 0px 0px 23px rgb(147, 147, 192), 0px 0px 24px rgb(101, 101, 163); 
+  box-shadow: 0px 0px 21px rgb(241, 241, 245), 0px 0px 22px rgb(225, 225, 233), 0px 0px 23px rgb(179, 179, 206), 0px 0px 24px rgb(143, 143, 182); 
 }
 
 #modal1:target {
