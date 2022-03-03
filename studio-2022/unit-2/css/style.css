@@ -43,21 +43,21 @@ input[type=checkbox] {
 
 @keyframes star-glow1 {
   0% {
-    opacity: 0;
+    opacity: .3;
   }
   30% {
     opacity: .5;
     background-color: white;
   }
   60% {
-    opacity: 0;
+    opacity: .2;
   }
   80% {
     opacity: 1;
     background-color: white;
   }
   100% {
-    opacity: 0;
+    opacity: .3;
   }
 }
 
@@ -83,21 +83,21 @@ input[type=checkbox] {
 
 @keyframes star-glow2 {
   0% {
-    opacity: 0;
+    opacity: .3;
   }
   20% {
     opacity: .8;
     background-color: white;
   }
   70% {
-    opacity: 0;
+    opacity: .4;
   }
   90% {
     opacity: .3;
     background-color: white;
   }
   100% {
-    opacity: 0;
+    opacity: .2;
   }
 }
 
