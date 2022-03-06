@@ -20,7 +20,7 @@ h1:hover:before {
 }
 
 p {
-    font-size: 3em;
+    font-size: 2em;
     font-family: minerva-modern, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -31,4 +31,7 @@ p {
 #information {
     height: 50%;
     width: 50%;
+    position: sticky;
+    top: 40%;
+    left: 60%;
 }
