@@ -32,14 +32,14 @@ p {
     height: 50%;
     width: 50%;
     position: absolute;
-    top: 5%;
-    left: 50%;
+    top: 20%;
+    left: 30%;
 }
 
 img {
     position: sticky;
     top: 5%;
     left: 10%;
-    width: 40%;
+    width: 30%;
     height: auto;
 }
