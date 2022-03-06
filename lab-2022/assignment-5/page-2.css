@@ -10,12 +10,14 @@ html {
 
 #innercircle {
     position: absolute;
+    top:50%;
+    left: 50%;
     height: 30px;
     width: 30px;
     border-radius: 50%;
     background-color: red;
     opacity: 50%;
-    transform: rotate(45deg) translateX(.5em) rotate(-45deg);
+    transform: rotate(45deg) rotate(-45deg);
     -webkit-animation: orbit2 10s linear infinite;
 }
 
