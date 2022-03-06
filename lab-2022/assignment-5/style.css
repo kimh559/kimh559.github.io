@@ -3,7 +3,7 @@ html {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 5.2em;
     font-family: carol-gothic, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -20,7 +20,7 @@ h1:hover:before {
 }
 
 p {
-    font-size: 2em;
+    font-size: 1.3em;
     font-family: minerva-modern, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -31,14 +31,14 @@ p {
 #information {
     height: 50%;
     width: 50%;
-    position: sticky;
-    top: 15%;
-    left: 60%;
+    position: flex;
+    top: 5%;
+    left: 50%;
 }
 
 img {
-    position: flex;
-    top: 15%;
+    position: sticky;
+    top: 5%%;
     left: 10%;
     width: 40%;
     height: auto;
