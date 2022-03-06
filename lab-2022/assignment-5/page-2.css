@@ -2,6 +2,12 @@ html {
     background-color: black;
 }
 
+.innersection {
+    position: absolute;
+    align-content: center;
+    vertical-align: middle;
+}
+
 #innercircle {
     position: absolute;
     height: 30px;
@@ -9,8 +15,8 @@ html {
     border-radius: 50%;
     background-color: red;
     opacity: 50%;
-    transform: rotate(45deg) translateX(2em) rotate(-45deg);
-    -webkit-animation: orbit2 4s linear infinite;
+    transform: rotate(45deg) translateX(.5em) rotate(-45deg);
+    -webkit-animation: orbit2 10s linear infinite;
 }
 
 @-webkit-keyframes orbit2 {
