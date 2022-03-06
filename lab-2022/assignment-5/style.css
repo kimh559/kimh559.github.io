@@ -28,6 +28,14 @@ p {
     text-align:justify;
 }
 
+a {
+    color:rgb(151, 107, 89);
+}
+
+a:hover {
+    font-size: 1.5em;
+}
+
 #information {
     height: 50%;
     width: 50%;
