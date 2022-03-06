@@ -1,14 +1,14 @@
 html {
-    background-color:rgb(245, 232, 217);
+    background-color:rgb(245, 237, 229);
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 7em;
     font-family: carol-gothic, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(83, 42, 24);
-    text-align: right;
+    text-align: center;
 }
 
 h1:hover span {
@@ -17,4 +17,18 @@ h1:hover span {
 
 h1:hover:before {
     content: "Cathédrale Notre-Dame de Chartres"
+}
+
+p {
+    font-size: 3em;
+    font-family: minerva-modern, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(83, 42, 24);
+    text-align:justify;
+}
+
+#information {
+    height: 50%;
+    width: 50%;
 }
