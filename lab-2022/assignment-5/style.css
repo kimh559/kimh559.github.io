@@ -33,13 +33,15 @@ p {
     width: 50%;
     position: absolute;
     top: 20%;
-    left: 30%;
+    left: 40%;
+    padding: 5%;
 }
 
 img {
-    position: sticky;
+    position: absolute;
     top: 5%;
-    left: 10%;
+    left: 5%;
     width: 30%;
     height: auto;
+    padding: 5%;
 }
