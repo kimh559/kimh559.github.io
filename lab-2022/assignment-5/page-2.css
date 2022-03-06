@@ -10,8 +10,7 @@ html {
     background-color: red;
     opacity: 50%;
     transform: rotate(45deg) translateX(2em) rotate(-45deg);
-    animation-name: orbit2;
-    animation: 4s linear infinite;
+    -webkit-animation: orbit2 4s linear infinite;
 }
 
 @-webkit-keyframes orbit2 {
