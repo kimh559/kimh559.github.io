@@ -307,11 +307,3 @@ input[type=checkbox] {
   [id^=modal]::-webkit-scrollbar {
     display: none;
   }
-
-  #modal-root {
-    transition: opacity 0.15s ease-out, width 0s linear 0.15s, height 0s linear 0.15s;
-  }
-  
-  #modal-root.visible {
-    transition: opacity 0.15s ease-out;
-  }
