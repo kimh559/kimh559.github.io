@@ -8,7 +8,7 @@ body {
   position: sticky;
   border: none;
   top: 15%;
-  left: 25%;
+  left: 28%;
   padding-top: 5%;
   padding-bottom: 10%; 
   max-height: 100em;
@@ -258,7 +258,7 @@ input[type=checkbox] {
 #modal2:target {
   display: block;
   position: sticky;
-  left: 35%;
+  left: 39%;
   align-content: center;
   text-align: left;
   color: white;
@@ -276,7 +276,7 @@ input[type=checkbox] {
   #modal4:target {
     display:block;
     position: sticky;
-    left: 35%;
+    left: 39%;
     align-content: center;
     text-align: left;
     color: white;
