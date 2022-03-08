@@ -257,12 +257,12 @@ input[type=checkbox] {
 
 #modal2:target {
   display: block;
+  position: absolute;
+  left: 30%;
   align-content: center;
   text-align: left;
   color: white;
   overflow-y: scroll;
-  position: absolute;
-  left: 30%;
   }
 
   #modal3:target {
@@ -275,12 +275,12 @@ input[type=checkbox] {
 
   #modal4:target {
     display:block;
+    position: absolute;
+    left: 30%;
     align-content: center;
     text-align: left;
     color: white;
     overflow-y: scroll;
-    position: absolute;
-    left: 30%;
   }
 
   #modal5:target {
