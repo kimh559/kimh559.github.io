@@ -252,7 +252,7 @@ input[type=checkbox] {
   display: block;
   position: sticky;
   align-content: center;
-  text-align: justify;
+  text-align: left;
   color: white;
   overflow-y: scroll;
   overflow: auto;
