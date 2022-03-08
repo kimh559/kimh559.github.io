@@ -17,6 +17,7 @@ body {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 2em;
   z-index: 0;
   text-align: justify;
   }
@@ -33,14 +34,14 @@ input[type=checkbox] {
 #star1 {
   display: flex;
   position: fixed;
-  top: 30%;
+  top: 25%;
   left: 18%;
   border-radius: 50%;
   height: 20px;
   width: 20px;
   background-color: white;
   opacity: 90%;
-  box-shadow: 0px 0px 19px rgb(241, 241, 245), 0px 0px 20px rgb(225, 225, 233), 0px 0px 21px rgb(179, 179, 206), 0px 0px 22px rgb(143, 143, 182);
+  box-shadow: 0px 0px 20px 17px rgb(241, 241, 245);
   animation-name: star-glow1;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -251,8 +252,7 @@ input[type=checkbox] {
   align-content: center;
   text-align: justify;
   color: white;
-  overflow: auto;
-  overflow: hidden;
+  overflow-y: scroll;
   }
 
 #modal2:target {
