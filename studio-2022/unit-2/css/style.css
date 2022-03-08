@@ -10,8 +10,8 @@ body {
   top: 15%;
   left: 28%;
   padding-top: 5%;
-  padding-bottom: 10%; 
-  max-height: 30em;
+  padding-bottom: 20%; 
+  max-height: 28em;
   min-width: 28em;
   max-width: 28em;
   font-family: proxima-nova, sans-serif;
@@ -306,4 +306,12 @@ input[type=checkbox] {
 
   [id^=modal]::-webkit-scrollbar {
     display: none;
+  }
+
+  #modal-root {
+    transition: opacity 0.15s ease-out, width 0s linear 0.15s, height 0s linear 0.15s;
+  }
+  
+  #modal-root.visible {
+    transition: opacity 0.15s ease-out;
   }
