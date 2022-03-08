@@ -320,9 +320,8 @@ input[type=checkbox] {
   
 #link1:hover {
     text-decoration: none;
-    font-size: 1.3em;
     color: white;
-    text-shadow: 15px 13px 15px 15px white;
+    text-shadow: .1em .1em .4em white;
   }
 
 #link {
