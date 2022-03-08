@@ -260,8 +260,7 @@ input[type=checkbox] {
   align-content: center;
   text-align: left;
   color: white;
-  overflow: auto;
-  overflow: hidden;
+  overflow-y: scroll;
   }
 
   #modal3:target {
@@ -269,8 +268,7 @@ input[type=checkbox] {
     align-content: center;
     text-align: justify;
     color: white;
-    overflow: auto;
-    overflow: hidden;
+    overflow-y: scroll;
   }
 
   #modal4:target {
@@ -278,8 +276,7 @@ input[type=checkbox] {
     align-content: center;
     text-align: left;
     color: white;
-    overflow: auto;
-    overflow: hidden;
+    overflow-y: scroll;
   }
 
   #modal5:target {
@@ -287,10 +284,13 @@ input[type=checkbox] {
     align-content: center;
     text-align: justify;
     color: white;
-    overflow: auto;
-    overflow: hidden;
+    overflow-y: scroll;
   }
 
 [id^=modal] a {
   float: right;
+  }
+
+  [id^=modal]::-webkit-scrollbar {
+    display: none;
   }
