@@ -257,7 +257,7 @@ input[type=checkbox] {
 
 #modal2:target {
   display: block;
-  position: absolute;
+  position: sticky;
   left: 30%;
   align-content: center;
   text-align: left;
@@ -275,7 +275,7 @@ input[type=checkbox] {
 
   #modal4:target {
     display:block;
-    position: absolute;
+    position: sticky;
     left: 30%;
     align-content: center;
     text-align: left;
