@@ -305,3 +305,15 @@ input[type=checkbox] {
   [id^=modal]::-webkit-scrollbar {
     display: none;
   }
+
+.exit {
+  margin: 50px 0;
+  position: absolute;
+  display: block;
+  color: goldenrod;
+  width: 0px;
+  height: 0px;
+  border-right: 40px solid transparent;
+  border-bottom: 10px solid goldenrod;
+  border-left: 40px solid transparent;
+}
