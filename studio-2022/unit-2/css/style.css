@@ -307,3 +307,17 @@ input[type=checkbox] {
   [id^=modal]::-webkit-scrollbar {
     display: none;
   }
+
+#link1:link {
+    text-decoration: none;
+  }
+
+#link1:visited {
+    text-decoration: none;
+  }
+  
+#link1:hover {
+    text-decoration: none;
+    font-size: 1.3em;
+    text-shadow: 1.3em 1.25em 1.35em white;
+  }
