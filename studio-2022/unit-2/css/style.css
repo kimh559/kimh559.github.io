@@ -81,7 +81,7 @@ input[type=checkbox] {
   display: flex;
   position: fixed;
   top: 60%;
-  left: 30%;
+  left: 32%;
   border-radius: 50%;
   height: 22px;
   width: 22px;
@@ -125,8 +125,8 @@ input[type=checkbox] {
 #star3 {
   display: flex;
   position: fixed;
-  top: 63%;
-  left: 47%;
+  top: 59%;
+  left: 49%;
   border-radius: 50%;
   height: 19px;
   width: 19px;
@@ -170,8 +170,8 @@ input[type=checkbox] {
 #star4 {
   display: flex;
   position: fixed;
-  top: 78%;
-  left: 62%;
+  top: 83%;
+  left: 59%;
   border-radius: 50%;
   height: 18px;
   width: 18px;
