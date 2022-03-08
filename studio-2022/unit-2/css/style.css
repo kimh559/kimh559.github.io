@@ -250,30 +250,35 @@ input[type=checkbox] {
   display: block;
   color: white;
   overflow: auto;
+  overflow: hidden;
   }
 
 #modal2:target {
   display: block;
   color: white;
   overflow: auto;
+  overflow: hidden;
   }
 
   #modal3:target {
     display: block;
     color: white;
     overflow: auto;
+    overflow: hidden;
   }
 
   #modal4:target {
     display:block;
     color: white;
     overflow: auto;
+    overflow: hidden;
   }
 
   #modal5:target {
     display: block;
     color: white;
     overflow: auto;
+    overflow: hidden;
   }
 
 [id^=modal] a {
