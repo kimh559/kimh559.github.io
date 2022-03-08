@@ -11,13 +11,13 @@ body {
   left: 35%;
   padding-top: 5%;
   padding-bottom: 10%; 
-  max-height: 30em;
-  min-width: 24em;
-  max-width: 25em;
+  max-height: 35em;
+  min-width: 28em;
+  max-width: 28em;
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2em;
+  font-size: 1.5em;
   z-index: 0;
   text-align: justify;
   }
@@ -294,15 +294,3 @@ input[type=checkbox] {
   [id^=modal]::-webkit-scrollbar {
     display: none;
   }
-
-.exit {
-  margin: 50px 0;
-  position: absolute;
-  display: block;
-  color: goldenrod;
-  width: 0px;
-  height: 0px;
-  border-right: 40px solid transparent;
-  border-bottom: 10px solid goldenrod;
-  border-left: 40px solid transparent;
-}
