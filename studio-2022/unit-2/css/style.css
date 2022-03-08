@@ -34,8 +34,8 @@ input[type=checkbox] {
 #star1 {
   display: flex;
   position: fixed;
-  top: 25%;
-  left: 18%;
+  top: 20%;
+  left: 17%;
   border-radius: 50%;
   height: 20px;
   width: 20px;
@@ -78,8 +78,8 @@ input[type=checkbox] {
 #star2 {
   display: flex;
   position: fixed;
-  top: 60%;
-  left: 32%;
+  top: 55%;
+  left: 30%;
   border-radius: 50%;
   height: 22px;
   width: 22px;
@@ -121,8 +121,8 @@ input[type=checkbox] {
 #star3 {
   display: flex;
   position: fixed;
-  top: 59%;
-  left: 52%;
+  top: 53%;
+  left: 55%;
   border-radius: 50%;
   height: 19px;
   width: 19px;
@@ -164,8 +164,8 @@ input[type=checkbox] {
 #star4 {
   display: flex;
   position: fixed;
-  top: 85%;
-  left: 61%;
+  top: 83%;
+  left: 63%;
   border-radius: 50%;
   height: 18px;
   width: 18px;
@@ -207,7 +207,7 @@ input[type=checkbox] {
 #star5 {
   display: flex;
   position: fixed;
-  top: 64%;
+  top: 62%;
   left: 79%;
   border-radius: 50%;
   height: 20px;
