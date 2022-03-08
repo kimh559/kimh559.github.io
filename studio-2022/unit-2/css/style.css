@@ -250,6 +250,7 @@ input[type=checkbox] {
 
 #modal1:target {
   display: block;
+  position: sticky;
   align-content: center;
   text-align: justify;
   color: white;
@@ -270,6 +271,7 @@ input[type=checkbox] {
 
   #modal3:target {
     display: block;
+    position: sticky;
     align-content: center;
     text-align: justify;
     color: white;
@@ -290,6 +292,7 @@ input[type=checkbox] {
 
   #modal5:target {
     display: block;
+    position: sticky;
     align-content: center;
     text-align: justify;
     color: white;
