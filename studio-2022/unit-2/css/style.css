@@ -1,5 +1,6 @@
-html {
+body {
   background-color: midnightblue;
+  overflow: hidden;
 }
 
 [id^=modal] {
