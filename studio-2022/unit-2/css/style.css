@@ -41,7 +41,7 @@ input[type=checkbox] {
   width: 20px;
   background-color: white;
   opacity: 90%;
-  box-shadow: 0px 0px 13px 11px white;
+  box-shadow: 0px 0px 15px 11px white;
   animation-name: star-glow1;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -63,13 +63,11 @@ input[type=checkbox] {
   }
   60% {
     opacity: .2;
-    background-color:rgb(255, 243, 190);
-    box-shadow:rgb(255, 243, 190);
+    background-color:white;
   }
   80% {
     opacity: 1;
-    background-color: rgb(255, 243, 190);
-    box-shadow:rgb(255, 243, 190);
+    background-color: white;
   }
   100% {
     opacity: .3;
@@ -86,7 +84,7 @@ input[type=checkbox] {
   height: 22px;
   width: 22px;
   background-color: white;
-  box-shadow: 0px 0px 15px 13px white;
+  box-shadow: 0px 0px 17px 13px white;
   animation-name: star-glow2;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -104,13 +102,11 @@ input[type=checkbox] {
   }
   20% {
     opacity: .8;
-    background-color:rgb(255, 243, 190);
-    box-shadow:rgb(255, 243, 190);
+    background-color:white;
   }
   70% {
     opacity: .4;
-    background-color:rgb(255, 243, 190);
-    box-shadow:rgb(255, 243, 190);
+    background-color:white;
   }
   90% {
     opacity: .3;
@@ -131,7 +127,7 @@ input[type=checkbox] {
   height: 19px;
   width: 19px;
   background-color: white;
-  box-shadow: 0px 0px 12px 10px white;
+  box-shadow: 0px 0px 14px 10px white;
   animation-name: star-glow3;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -149,8 +145,7 @@ input[type=checkbox] {
   }
   20% {
     opacity: .7;
-    background-color: rgb(191, 195, 247);
-    box-shadow:rgb(191, 195, 247);
+    background-color:white;
   }
   70% {
     opacity: .2;
@@ -162,8 +157,7 @@ input[type=checkbox] {
   }
   100% {
     opacity: 1;
-    background-color:rgb(191, 195, 247);
-    box-shadow:rgb(191, 195, 247);
+    background-color:white;
   }
 }
 
@@ -176,7 +170,7 @@ input[type=checkbox] {
   height: 18px;
   width: 18px;
   background-color: white;
-  box-shadow: 0px 0px 11px 9px white;
+  box-shadow: 0px 0px 13px 9px white;
   animation-name: star-glow4;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -190,8 +184,7 @@ input[type=checkbox] {
 @keyframes star-glow4 {
   0% {
     opacity: .7;
-    background-color:rgb(255, 243, 190);
-    box-shadow:rgb(255, 243, 190);
+    background-color:white;
   }
   20% {
     opacity: .2;
@@ -203,8 +196,7 @@ input[type=checkbox] {
   }
   90% {
     opacity: .9;
-    background-color:rgb(191, 195, 247);
-    box-shadow:rgb(191, 195, 247);
+    background-color:white;
   }
   100% {
     opacity: .7;
@@ -221,7 +213,7 @@ input[type=checkbox] {
   height: 20px;
   width: 20px;
   background-color: white;
-  box-shadow: 0px 0px 13px 11px white;
+  box-shadow: 0px 0px 15px 11px white;
   animation-name: star-glow5;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -239,18 +231,15 @@ input[type=checkbox] {
   }
   20% {
     opacity: .6;
-    background-color:rgb(255, 243, 190);
-    box-shadow:rgb(255, 243, 190)
+    background-color:white;
   }
   70% {
     opacity: .4;
-    background-color:rgb(255, 243, 190);
-    box-shadow:rgb(255, 243, 190);
+    background-color: white;
   }
   90% {
     opacity: 1;
-    background-color:rgb(255, 243, 190);
-    box-shadow:rgb(255, 243, 190)
+    background-color:white;
   }
   100% {
     opacity: .3;
