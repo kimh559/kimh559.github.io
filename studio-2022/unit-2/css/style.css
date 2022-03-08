@@ -248,6 +248,8 @@ input[type=checkbox] {
 
 #modal1:target {
   display: block;
+  align-content: center;
+  text-align: justify;
   color: white;
   overflow: auto;
   overflow: hidden;
@@ -255,6 +257,8 @@ input[type=checkbox] {
 
 #modal2:target {
   display: block;
+  align-content: center;
+  text-align: left;
   color: white;
   overflow: auto;
   overflow: hidden;
@@ -262,6 +266,8 @@ input[type=checkbox] {
 
   #modal3:target {
     display: block;
+    align-content: center;
+    text-align: justify;
     color: white;
     overflow: auto;
     overflow: hidden;
@@ -269,6 +275,8 @@ input[type=checkbox] {
 
   #modal4:target {
     display:block;
+    align-content: center;
+    text-align: left;
     color: white;
     overflow: auto;
     overflow: hidden;
@@ -276,6 +284,8 @@ input[type=checkbox] {
 
   #modal5:target {
     display: block;
+    align-content: center;
+    text-align: justify;
     color: white;
     overflow: auto;
     overflow: hidden;
