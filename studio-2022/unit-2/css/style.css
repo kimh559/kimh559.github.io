@@ -337,6 +337,10 @@ input[type=checkbox] {
     color: white;
     font-size: 1.2em;
   }
+  50% {
+    color: white;
+    font-size: 1.25em;
+  }
   100% {
     color: white;
     font-size: 1.3em;
