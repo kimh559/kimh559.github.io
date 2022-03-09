@@ -327,7 +327,6 @@ input[type=checkbox] {
     animation-duration: 1s; 
     animation-delay: none;
     animation-direction: normal;
-    animation-timing-function: ease-out;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-play-state: running;
@@ -340,6 +339,6 @@ input[type=checkbox] {
   }
   100% {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 }
