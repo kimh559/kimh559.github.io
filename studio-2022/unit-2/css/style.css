@@ -308,10 +308,6 @@ input[type=checkbox] {
     display: none;
   }
 
-#last {
-  text-align: left;
-}
-
 #link1:link {
     text-decoration: none;
     color: white;
