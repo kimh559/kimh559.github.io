@@ -74,7 +74,7 @@ input[type=checkbox] {
   width: 20px;
   background-color:rgb(255, 232, 104);
   opacity: 90%;
-  box-shadow: 0px 0px 15px 11px rgb(255, 232, 104), 0px 0px 15px 5px white;
+  box-shadow: 0px 0px 15px 9px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow1;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -88,23 +88,23 @@ input[type=checkbox] {
 @keyframes star-glow1 {
   0% {
     opacity: .3;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   30% {
     opacity: .5;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   60% {
     opacity: .2;
-    background-color:white;
+    background-color: rgb(255, 232, 104);
   }
   80% {
     opacity: 1;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   100% {
     opacity: .3;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
 }
 
@@ -117,7 +117,7 @@ input[type=checkbox] {
   height: 22px;
   width: 22px;
   background-color: rgb(255, 232, 104);
-  box-shadow: 0px 0px 17px 13px rgb(255, 232, 104), 0px 0px 15px 5px white;
+  box-shadow: 0px 0px 17px 11px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow2;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -131,23 +131,23 @@ input[type=checkbox] {
 @keyframes star-glow2 {
   0% {
     opacity: .3;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   20% {
     opacity: .8;
-    background-color:white;
+    background-color: rgb(255, 232, 104);
   }
   70% {
     opacity: .4;
-    background-color:white;
+    background-color: rgb(255, 232, 104);
   }
   90% {
     opacity: .3;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   100% {
     opacity: .3;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
 }
 
@@ -160,7 +160,7 @@ input[type=checkbox] {
   height: 19px;
   width: 19px;
   background-color: rgb(255, 232, 104);
-  box-shadow: 0px 0px 14px 10px rgb(255, 232, 104), 0px 0px 15px 5px white;
+  box-shadow: 0px 0px 14px 8px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow3;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -174,23 +174,23 @@ input[type=checkbox] {
 @keyframes star-glow3 {
   0% {
     opacity: 1;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   20% {
     opacity: .7;
-    background-color:white;
+    background-color: rgb(255, 232, 104);
   }
   70% {
     opacity: .2;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   90% {
     opacity: .5;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   100% {
     opacity: 1;
-    background-color:white;
+    background-color: rgb(255, 232, 104);
   }
 }
 
@@ -203,7 +203,7 @@ input[type=checkbox] {
   height: 18px;
   width: 18px;
   background-color:rgb(255, 232, 104);
-  box-shadow: 0px 0px 13px 9px rgb(255, 232, 104), 0px 0px 15px 5px white;
+  box-shadow: 0px 0px 13px 7px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow4;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -217,23 +217,23 @@ input[type=checkbox] {
 @keyframes star-glow4 {
   0% {
     opacity: .7;
-    background-color:white;
+    background-color: rgb(255, 232, 104);
   }
   20% {
     opacity: .2;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   70% {
     opacity: .4;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   90% {
     opacity: .9;
-    background-color:white;
+    background-color: rgb(255, 232, 104);
   }
   100% {
     opacity: .7;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
 }
 
@@ -246,7 +246,7 @@ input[type=checkbox] {
   height: 20px;
   width: 20px;
   background-color: rgb(255, 232, 104);
-  box-shadow: 0px 0px 15px 11px rgb(255, 232, 104), 0px 0px 15px 5px white;
+  box-shadow: 0px 0px 15px 9px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow5;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -260,23 +260,23 @@ input[type=checkbox] {
 @keyframes star-glow5 {
   0% {
     opacity: .3;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   20% {
     opacity: .6;
-    background-color:white;
+    background-color: rgb(255, 232, 104);
   }
   70% {
     opacity: .4;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
   90% {
     opacity: 1;
-    background-color:white;
+    background-color:rgb(255, 232, 104);
   }
   100% {
     opacity: .3;
-    background-color: white;
+    background-color:rgb(255, 232, 104);
   }
 }
 
