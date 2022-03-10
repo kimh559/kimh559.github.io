@@ -16,19 +16,19 @@ body {
     background-color: midnightblue;
   }
   20% {
-    background-color: rgb(28, 28, 68);
+    background-color:rgb(54, 22, 141);
   }
   40% {
-    background-color:rgb(17, 17, 51);
+    background-color:rgb(68, 22, 141);
   }
   60% {
-    background-color:rgb(29, 4, 58);
+    background-color:rgb(58, 25, 112);
   }
   80% {
-    background-color:rgb(36, 9, 87);
+    background-color:rgb(51, 25, 112);
   }
   95% {
-    background-color:rgb(46, 10, 104);
+    background-color:rgb(38, 25, 112);
   }
   100% {
     background-color: midnightblue;
