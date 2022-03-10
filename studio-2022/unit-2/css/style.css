@@ -74,7 +74,7 @@ input[type=checkbox] {
   width: 20px;
   background-color:rgb(255, 232, 104);
   opacity: 90%;
-  box-shadow: 0px 0px 15px 11px rgb(255, 232, 104), 0px 0px 15px 14px white;
+  box-shadow: 0px 0px 15px 11px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow1;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -117,7 +117,7 @@ input[type=checkbox] {
   height: 22px;
   width: 22px;
   background-color: rgb(255, 232, 104);
-  box-shadow: 0px 0px 17px 13px rgb(255, 232, 104), 0px 0px 15px 14px white;
+  box-shadow: 0px 0px 17px 13px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow2;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -160,7 +160,7 @@ input[type=checkbox] {
   height: 19px;
   width: 19px;
   background-color: rgb(255, 232, 104);
-  box-shadow: 0px 0px 14px 10px rgb(255, 232, 104), 0px 0px 15px 14px white;
+  box-shadow: 0px 0px 14px 10px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow3;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -203,7 +203,7 @@ input[type=checkbox] {
   height: 18px;
   width: 18px;
   background-color:rgb(255, 232, 104);
-  box-shadow: 0px 0px 13px 9px rgb(255, 232, 104), 0px 0px 15px 14px white;
+  box-shadow: 0px 0px 13px 9px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow4;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
@@ -246,7 +246,7 @@ input[type=checkbox] {
   height: 20px;
   width: 20px;
   background-color: rgb(255, 232, 104);
-  box-shadow: 0px 0px 15px 11px rgb(255, 232, 104), 0px 0px 15px 14px white;
+  box-shadow: 0px 0px 15px 11px rgb(255, 232, 104), 0px 0px 15px 5px white;
   animation-name: star-glow5;
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
