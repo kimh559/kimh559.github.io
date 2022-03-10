@@ -252,7 +252,7 @@ input[type=checkbox] {
   display: block;
   position: sticky;
   align-content: center;
-  text-align: left;
+  text-align: justify;
   color: white;
   overflow-y: scroll;
   overflow: auto;
@@ -261,7 +261,7 @@ input[type=checkbox] {
 #modal2:target {
   display: block;
   position: sticky;
-  left: 39%;
+  left: 38%;
   align-content: center;
   text-align: left;
   color: white;
@@ -282,7 +282,7 @@ input[type=checkbox] {
   #modal4:target {
     display:block;
     position: sticky;
-    left: 39%;
+    left: 38%;
     align-content: center;
     text-align: left;
     color: white;
