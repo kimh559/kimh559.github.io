@@ -2,7 +2,7 @@ body {
   background-color: midnightblue;
   overflow: hidden;
   animation-name: background;
-  animation-duration: 19s; 
+  animation-duration: 25s; 
   animation-timing-function: ease-in-out; 
   animation-delay: none;
   animation-direction:alternate-reverse;
