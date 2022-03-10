@@ -5,7 +5,7 @@ body {
   animation-duration: 19s; 
   animation-timing-function: ease-in-out; 
   animation-delay: none;
-  animation-direction: normal;
+  animation-direction:alternate-reverse;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
   animation-play-state: running;
@@ -16,22 +16,22 @@ body {
     background-color: midnightblue;
   }
   20% {
-    background-color:rgb(54, 22, 141);
+    background-color: rgb(17, 28, 121);
   }
   40% {
-    background-color:rgb(68, 22, 141);
+    background-color:rgb(16, 30, 153);
   }
   60% {
-    background-color:rgb(58, 25, 112);
+    background-color:rgb(8, 20, 122);
   }
   80% {
-    background-color:rgb(51, 25, 112);
+    background-color:rgb(6, 14, 87);
   }
   95% {
-    background-color:rgb(38, 25, 112);
+    background-color:rgb(4, 9, 54);
   }
   100% {
-    background-color: midnightblue;
+    background-color:rgb(2, 5, 31);
   }
 }
 
