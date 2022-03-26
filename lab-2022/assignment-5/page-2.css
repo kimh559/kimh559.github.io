@@ -9,6 +9,8 @@
 }
 
 #child {
+    color: red;
+    opacity: 50%;
 	position: absolute;
 	width: 80px;
 	height: 80px;
