@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-    background: url("/lab-2022/assignment-6/images/underwater1.jpg") no-repeat center center fixed; 
+    background: url("/lab-2022/assignment-6/images/underwater2.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,6 +9,18 @@ html {
 
 body {
     margin: 0;
+}
+
+h1 {
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #container {
