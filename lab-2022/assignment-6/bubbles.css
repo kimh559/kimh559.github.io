@@ -83,7 +83,7 @@ h3 {
     width:5px;
     height: 5px;
     left: 57%;
-    animation: flow-l 3s linear infinite;
+    animation: flow-l 4s linear infinite;
 }
   
 .small2 {
@@ -114,7 +114,7 @@ h3 {
     width:5px;
     height: 5px;
     left: 25%;
-    animation: flow-l2 3s linear infinite;
+    animation: flow-l2 4s linear infinite;
 }
 
 @keyframes flow-l {
@@ -129,15 +129,15 @@ h3 {
       opacity: 1;
     }
     50%{
-      left: 48%;
+      left: 56%;
       opacity: 1;
     }
     75%{
-      left: 35%;
+      left: 53%;
       opacity: 1;
     }
     100% {
-      top: 20%;
+      top: 48%;
       left: 57%;
       opacity: 0;
     }
@@ -263,20 +263,20 @@ h3 {
     }
     25%{
       top: 70%;
-      left: 30%;
-      opacity: 1;
-    }
-    50%{
       left: 26%;
       opacity: 1;
     }
+    50%{
+      left: 28%;
+      opacity: 1;
+    }
     75%{
-      left: 15%;
+      left: 25%;
       opacity: 1;
     }
     100% {
       top: 20%;
-      left: 30%;
+      left: 26%;
       opacity: 0;
     }
 }
