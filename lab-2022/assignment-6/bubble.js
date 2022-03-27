@@ -1,6 +1,6 @@
 let container = document.querySelector('#container');
 
-for (let i = 0; i < 50; i++) {
+for (let i = 0; i < 15; i++) {
     let bubble = document.createElement('div');
     bubble.classList.add('bubble');
     bubble.style.left = (90 * Math.random()) + '%';

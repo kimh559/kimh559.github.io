@@ -17,6 +17,8 @@ h1 {
     font-style: normal;
     font-size: 5em;
     color:#00284e;
+    position: absolute;
+    top: 20%;
 }
 
 p {
@@ -25,6 +27,8 @@ p {
     font-style: normal;
     font-size: 4em;
     color: #00284e;
+    position: absolute;
+    top: 30%;
 }
 
 #container {
