@@ -1,5 +1,5 @@
-let bubbles = document.querySelectorAll('bubble');
-let container = document.querySelectorAll('#container');
+let bubbles = document.querySelectorAll('.bubble');
+let container = document.querySelector('#container');
 
 bubbles.forEach(function (bubble) {
     bubble.style.left = (90 * Math.random()) + '%';
