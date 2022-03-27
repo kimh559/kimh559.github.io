@@ -1,15 +1,14 @@
+let bubbles = document.querySelectorAll('.bubble');
 let container = document.querySelector('#container');
 
-for (let i = 0; i < 15; i++) {
-    let bubble = document.createElement('div');
-    bubble.classList.add('bubble');
-    bubble.style.left = (90 * Math.random()) + '%';
-    bubble.style.top = (100 * Math.random()) + '%';
-    container.appendChild(bubble);
-}
+bubbles.forEach(function (bubble) {
+    bubble.style.left = (80 * Math.random()) + '%';
+    bubble.style.top = (70* Math.random()) + '%';
+});
 
 container.addEventListener('click', function (event) {
-    if (event.target.classList.contains('bubble')) {
-        event.target.remove();
-    }
+    console.log(event) 
+    if (event.target.classList.contains('bubble')){
+        event.target.remove();   
+     }
 });
