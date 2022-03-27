@@ -9,7 +9,7 @@ body {
 #container {
     width: 100vw;
     height: 100vh;
-    background-color:honeydew;
+    background: linear-gradient(135deg, rbg(251, 255, 254), rbg(242, 261, 249));
 }
 
 .bubble {
