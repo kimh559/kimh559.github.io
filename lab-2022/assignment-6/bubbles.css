@@ -51,7 +51,7 @@ h3 {
 
 .sparklingbubble {
     position: absolute;
-    top: 20%;
+    top: 10%;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.8);
 }
@@ -82,7 +82,7 @@ h3 {
 .large{
     width:5px;
     height: 5px;
-    left: 57%;
+    left: 50%;
     animation: flow-l 4s linear infinite;
 }
   
@@ -113,7 +113,7 @@ h3 {
 .large2 {
     width:5px;
     height: 5px;
-    left: 25%;
+    left: 20%;
     animation: flow-l2 4s linear infinite;
 }
 
