@@ -44,6 +44,10 @@ h3 {
     cursor: pointer;
 }
 
+#waves {
+    z-index: 1;
+}
+
 .flex { /*Flexbox for containers*/
     display: flex;
     justify-content: center;
