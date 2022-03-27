@@ -1,4 +1,3 @@
-let bubbles = document.querySelectorAll('.bubble');
 let container = document.querySelector('#container');
 
 for (let i = 0; i < 50; i++) {
