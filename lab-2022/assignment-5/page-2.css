@@ -1,22 +1,79 @@
-#parent {
-	position: relative;
-	width: 300px;
-	height: 300px;
-	border: none;
-	border-radius: 50%;
-	transform: rotate(0deg);
-	transition: transform 0.7s linear;
+body {
+	background-color:rgb(32, 32, 30);
 }
 
-#child {
-    color: red;
-    opacity: 50%;
+.windowframe {
 	position: absolute;
-	width: 80px;
-	height: 80px;
-	transform: rotate(0deg);
-	transition: transform 0.7s linear;
-	top: -40px;   /* -child size/2 */
-	left: 110px;   /* parent size/2 - child size/2 */
+	top: 10%;
+	left: 12%;
+    width: 13%;
+    height: 80%;
+    background-color: black;
+    border-top-left-radius: 610px;  
+    border-top-right-radius: 610px; 
+    border: 10px solid black;
+    border-bottom: 0;
+}
+
+#frame2 {
+	position: absolute;
+	top: 10%;
+	left: 32%;
+}
+
+#frame3 {
+	position: absolute;
+	top: 10%;
+	left: 52%;
+}
+
+#frame4 {
+	position: absolute;
+	top: 10%;
+	left: 72%;
+}
+
+#trapezoid1 {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+    animation-name: cobaltblue;
+    animation-duration: 15s;
+}
+
+@keyframes cobaltblue {
+    0% {
+        background-color:#0047AB;
+        box-shadow: 0px 0px 0px 0px 30px 20px #0b51b3;
+    }
+    50% {
+        background-color:#326dc0;
+        box-shadow: 0px 0px 0px 0px 30px 20px #4379c5;
+
+    }
+
+    100% {
+        background-color:#0047AB;
+        box-shadow: 0px 0px 30px 20px #0b51b3;
+        transform: rotate(360deg);
+    }
+}
+
+#trapezoid2 {
+	position: absolute;
+	left: 60%;
+	top: 20%;
+}
+
+#trapezoid3 {
+	position: absolute;
+	left: 30%;
+	top: 40%;
+}
+
+#trapezoid4 {
+	position: absolute;
+	left: 20%;
+	top: 50%;
 }
 
