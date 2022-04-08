@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/xmf4twc.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" type="text/javascript" defer ></script>
     <title>Bookshelf</title>
 </head>
     <body>
+        <script src="Lib/airtable.browser.js"></script>
         <h1>Hope's Bookshelf</h1>
+
+
+        <nav id="shelf" class="shelf"></nav>
+
+        <article id="book-detail" class="book-detail hidden">
+
+        <section class="figure">
+        <img class="cover-image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430768634l/70897.jpg" alt="Book Cover"/>
+        </section>
+
+        <section class="info">
+        <h2 class="title">The Secret History</h2>
+        <p class="description">An inverted detective story narrated by one of six students in a friend group who reflects years later upon the situation that led to the murder of their friend.</p>
+        <a class="more" href="https://en.wikipedia.org/wiki/The_Secret_History">Learn More</a>
+        </section>
+  
+        </article> 
 
         <script src="lib/airtable.browser.js"></script>
     </body>
