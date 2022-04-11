@@ -3,7 +3,7 @@ html {
     font-family:'Courier New', Courier, monospace;
 }
 
-h1{
+h1 {
     font-size: 8.5rem;
     color:rgb(177, 214, 179);
     font-family: carbon, sans-serif;
@@ -13,7 +13,7 @@ h1{
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     line-height: 1.2em;
     color: rgb(177, 214, 179);
     width: 20ch;
@@ -52,11 +52,13 @@ h2 {
 }
   
 .shelf .book-spine.active {
-    background: rgb(177, 214, 179);
+    background: rgb(77, 14, 25);
+    position: relative;
+    top: 15px;
 }
   
 .shelf .book-spine:hover {
-    background: rgb(77, 14, 25);
+    background: rgb(177, 214, 179);
     color:floralwhite;
     position: relative;
     animation-name: hover;
@@ -93,15 +95,20 @@ h2 {
 }
   
 .book-detail .title {
-    font-size: 24px;
+    font-size: 2.5em;
     text-transform: uppercase;
     margin-top: 0;
 }
   
 .book-detail .description {
     margin-top: 0.5em;
-    font-size: 36px;
+    font-size: 2em;
     line-height: 1.5;
+}
+
+.book-detail .author {
+    margin-top: 0;
+    font-size: 1.2em;
 }
 
 @media (max-width: 600px) {

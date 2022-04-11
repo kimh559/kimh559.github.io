@@ -1,0 +1,35 @@
+html {
+    background-color:rgb(27, 27, 27);
+}
+
+h1 {
+    color: rgb(214, 207, 193);
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+}
+
+.white-circles {
+    background:rgb(214, 207, 193);
+}
+
+#large-w {
+    position: relative;
+    top: 0%;
+    left: 37%;
+    border-radius: 50%;
+    height: 23em;
+    width: 28em;
+}
+
+#small-w {
+    position: relative;
+    top: 90%;
+    left: 40%;
+    border-radius: 50%;
+    height: 15em;
+    width: 15em;
+}
