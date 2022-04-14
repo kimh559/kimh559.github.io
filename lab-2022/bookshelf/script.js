@@ -6,8 +6,13 @@ console.log(Airtable);
 //use airtable library 
 var base = new Airtable({apiKey:'keylgrBH5WYY9nzg2'}).base('appV6a17PCpb1p6rs');
 
-//get "books" from table from airtable database
-base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+//get ALL "books" from table from airtable database > COMMENT THIS LINE OUT
+//base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+
+//ADD VIEW to get a select "view" "books" from table from airtable database// 
+base("books").select({
+view: "fiction"
+}).eachPage(gotPageOfBooks, gotAllBooks);
 
 //empty array to hold our book data
 const books = [];
@@ -69,7 +74,7 @@ function showBook(book, div) {
   const bookDetail = document.getElementById("book-detail");
 
   // populate the template with the data in the provided book
-  bookDetail.getElementsByClassName("title")[0].innerText = book.fields.title; //
+  bookDetail.getElementsByClassName("title")[0].innerText = book.fields.title; 
   bookDetail.getElementsByClassName("description")[0].innerText =
     book.fields.description;
   bookDetail.getElementsByClassName("author")[0].innerText = book.fields.author;
