@@ -78,6 +78,7 @@ function showBook(book, div) {
   bookDetail.getElementsByClassName("description")[0].innerText =
     book.fields.description;
   bookDetail.getElementsByClassName("author")[0].innerText = book.fields.author;
+  bookDetail.getElementsByClassName("category")[0].innerText = book.fields.category;
   bookDetail.getElementsByClassName("cover-image")[0].src =
     book.fields.image[0].url;
 

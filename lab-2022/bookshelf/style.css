@@ -30,7 +30,7 @@ h2 {
     border-bottom: 10px solid saddlebrown; 
     margin-bottom: 2em; 
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .shelf .book-spine {
@@ -47,7 +47,7 @@ h2 {
     transform: rotate(180deg);
     writing-mode: vertical-lr; */
     line-height: 30px;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
 }
   

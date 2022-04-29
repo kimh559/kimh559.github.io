@@ -1,40 +1,22 @@
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
+console.log("Hello bookshelf");
 
-// Declare a loop variable
-var i;
+var Airtable = require("airtable");
+console.log(Airtable);
 
-// Full-width images
-function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
-  }
-}
 
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
-  }
-}
-
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
-  }
-}
-
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+var base = new Airtable({apiKey: 'keyd1oUcUUWiw4gV6'}).base('appaLq7406l2hWuc2');
+base('Table 1').select({
+  maxRecords: 3,
+  view: "Grid view"
+}).eachPage(function page(records, fetchNextPage) {
+  // This function (`page`) will get called for each page of records.
+  records.forEach(function(record) {
+    console.log('Retrieved', record.get('Name'));
   });
-}
+  // To fetch the next page of records, call `fetchNextPage`.
+  // If there are more records, `page` will get called again.
+  // If there are no more records, `done` will get called.
+  fetchNextPage();
+}, function done(err) {
+  if (err) { console.error(err); return; }
+});
