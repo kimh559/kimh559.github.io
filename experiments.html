@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1">
-        <title>Experiments</title>
-        <link rel="stylesheet" href="/experiments.css">
-        <script src="experiments.js"></script>
-    </head>
-    <body>  
-      <canvas id="canvas"></canvas>
-    </body>
-    </html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="experiments.css" rel="stylesheet" type="text/css">
+	<title>Document</title>
+</head>
+<body>
+
+  <audio id="my-audio" controls>
+    <source src="studio-2022/laundry/HighC#.mp3" type="audio/mpeg">
+  </audio>
+
+		<!--AUDIO ROW 1 "Miroirs: III Une Baroque sur 'océan" Maurice Ravel in A major, F# minor-->
+		<!-- high E, high C#, high G#, middle F#, high E, high C#, high G#, middle F#-->
+
+		<!--AUDIO ROW 2 "Clair de Lune, L.32" Claude Debussy in Db major-->
+      <!--middle C#, middle F, middle F#, middle F, middle A#, middle F, middle D#, middle F-->
+
+		<!--AUDIO ROW 3 "Première Gymnopédie" Erik Satie in G major-->
+      <!--high A,  high G, middle F#, middle Db, middle B, middle Db, middle D, middle A-->
+
+      <!--AUDIO ROW 4 "The Well Tempered Clavier: Book 1 BWV 846" JS Bach in C major-->
+      <!-- high bass C, high bass E, middle G, middle C, middle E, middle G, middle C, middle E-->
+  <div class="parentgrid">
+		<!--ROW 1-->
+	  <button class="square1" id="play1" onmouseover="cs_change_music('studio-2022/laundry/HighE.mp3');">Play music 1</button>
+    <button class="square2" id="play2" onmouseover="cs_change_music('studio-2022/laundry/HighC#.mp3');">Play music 2</button>
+    <button class="square3" id="play3" onmouseover="cs_change_music('studio-2022/laundry/HighG#');">Play music 3</button>
+    <button class="square4" id="play4" onmouseover="cs_change_music('studio-2022/laundry/MiddleF#');">Play music 4</button>
+    <button class="square5" id="play5" onmouseover="cs_change_music('studio-2022/laundry/HighE.mp3');">Play music 5</button>
+    <button class="square6" id="play6" onmouseover="cs_change_music('studio-2022/laundry/HighC#.mp3');">Play music 6</button>
+    <button class="square7" id="play7" onmouseover="cs_change_music('studio-2022/laundry/HighG#.mp3');">Play music 7</button>
+    <button class="square8" id="play8" onmouseover="cs_change_music('studio-2022/laundry/MiddleF#.mp3');">Play music 8</button>
+
+		<!--ROW 2-->
+      <button class="square9" id="play9"></button>
+      <button class="square10" id="play10"></button>
+      <button class="square11" id="play11"></button>
+      <button class="square12" id="play12"></button>
+      <button class="square13" id="play13"></button>
+      <button class="square14" id="play14"></button>
+      <button class="square15" id="play15"></button>
+      <button class="square16" id="play16"></button>
+
+		<!--ROW 3-->
+      <button class="square17" id="play17"></button>
+      <button class="square18" id="play18"></button>
+      <button class="square19" id="play19"></button>
+      <button class="square20" id="play20"></button>
+      <button class="square21" id="play21"></button>
+      <button class="square22" id="play22"></button>
+      <button class="square23" id="play23"></button>
+      <button class="square24" id="play24"></button>
+
+		<!--ROW 4-->
+      <button class="square25" id="play25"></button>
+      <button class="square26" id="play26"></button>
+      <button class="square27" id="play27"></button>
+      <button class="square28" id="play28"></button>
+      <button class="square29" id="play29"></button>
+      <button class="square30" id="play30"></button>
+      <button class="square31" id="play31"></button>
+      <button class="square32" id="play32"></button>
+	</div>
+	
+	<script type="text/javascript">
+    function cs_change_music(music)
+   { 
+     document.getElementById("my-audio").pause();
+     document.getElementById("my-audio").setAttribute('src', music);
+     document.getElementById("my-audio").load();
+     document.getElementById("my-audio").play();
+   }
+  </script>
+</body>
+</html>

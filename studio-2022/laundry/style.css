@@ -1,0 +1,310 @@
+body {
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+.parentgrid {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: 126% 126% 126% 126%;
+    padding: none;
+  }
+  
+[class^=square] {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10.3%;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  /*row 1*/
+  
+.square1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: pink;
+  }
+    .square1:hover {
+     background-color: rgb(255, 183, 195);
+  }
+  
+.square2 {
+    grid-area: 1 / 2 / span 1 / span 1;
+    background-color:rgb(252, 176, 189);
+  }
+    .square2:hover {
+        background-color:rgb(248, 167, 181);
+    }
+  
+.square3 {
+    grid-area: 1 / 3 / span 1 / span 1;
+    background-color:rgb(253, 161, 176);
+  }
+  
+    .square3:hover {
+        background-color:rgb(248, 148, 164);
+    }
+  
+.square4 {
+    grid-area: 1 / 4 / span 1 / span 1;
+    background-color:rgb(252, 149, 166);
+  }
+  
+    .square4:hover {
+        background-color:rgb(248, 142, 160);
+    }
+  
+.square5 {
+    grid-area: 1 / 5 / span 1 / span 1;
+    background-color: rgb(253, 137, 156);
+  }
+  
+    .square5:hover {
+        background-color:rgb(253, 127, 148);
+    }
+  
+.square6 {
+    grid-area: 1 / 6 / span 1 / span 1;
+    background-color:rgb(252, 122, 144);
+  }
+  
+    .square6:hover {
+        background-color:rgb(248, 112, 134);
+    }
+  
+.square7 {
+    grid-area: 1 / 7 / span 1 / span 1;
+    background-color:rgb(255, 107, 131);
+  }
+  
+    .square7:hover {
+        background-color:rgb(255, 96, 123);
+    }
+  
+.square8 {
+    grid-area: 1 / 8 / span 1 / span 1;
+    background-color:rgb(255, 91, 118);
+  }
+  
+    .square8:hover {
+        background-color:rgb(255, 81, 110);
+    }
+
+    /*row 2*/
+.square9 {
+    grid-area: 2 / 1 / span 1 / span 1;
+    background-color: rgb(255, 188, 188);
+}
+
+    .square9:hover {
+        background-color:rgb(255, 177, 177);
+    }
+  
+.square10 {
+    grid-area: 2 / 2 / span 1 / span 1;
+    background-color:rgb(255, 173, 170);
+}
+    .square10:hover {
+        background-color:rgb(255, 161, 158);
+    }
+
+.square11 {
+    grid-area: 2 / 3 / span 1 / span 1;
+    background-color:rgb(255, 161, 158);
+}
+
+    .square11:hover {
+        background-color:rgb(255, 149, 145);
+    }
+
+.square12 {
+    grid-area: 2 / 4 / span 1 / span 1;
+    background-color:rgb(255, 150, 147);
+}
+
+    .square12:hover {
+        background-color:rgb(255, 137, 133);
+    }
+
+.square13 {
+    grid-area: 2 / 5 / span 1 / span 1;
+    background-color:rgb(255, 137, 137);
+}
+
+    .square13:hover {
+        background-color:rgb(255, 123, 123);
+    }
+
+.square14 {
+    grid-area: 2 / 6 / span 1 / span 1;
+    background-color:rgb(255, 125, 125); 
+}
+
+    .square14:hover {
+        background-color:rgb(255, 112, 112);
+    }
+
+.square15 {
+    grid-area: 2 / 7 / span 1 / span 1;
+    background-color:rgb(255, 115, 115);
+}
+
+    .square15:hover {
+        background-color:rgb(255, 102, 102);
+    }
+
+.square16 {
+    grid-area: 2 / 8 / span 1 / span 1;
+    background-color:rgb(255, 103, 103); 
+}
+
+    .square16:hover {
+        background-color:rgb(255, 88, 88);
+    }
+    
+    /*row3*/
+.square17 {
+    grid-area: 3 / 1 / span 1 / span 1;
+    background-color: rgb(255, 184, 175);
+}
+
+    .square17:hover {
+        background-color:rgb(255, 172, 161);
+    }
+  
+.square18 {
+    grid-area: 3 / 2 / span 1 / span 1;
+    background-color:rgb(255, 175, 164);
+}
+    .square18:hover {
+        background-color:rgb(255, 164, 152);
+    }
+
+.square19 {
+    grid-area: 3 / 3 / span 1 / span 1;
+    background-color:rgb(255, 160, 147);
+}
+
+    .square19:hover {
+        background-color:rgb(255, 150, 136);
+    }
+
+.square20 {
+    grid-area: 3 / 4 / span 1 / span 1;
+    background-color:rgb(255, 148, 133);
+}
+
+    .square20:hover {
+        background-color:rgb(255, 140, 125);
+    }
+
+.square21 {
+    grid-area: 3 / 5 / span 1 / span 1;
+    background-color:rgb(255, 134, 118);
+}
+
+    .square21:hover {
+        background-color:rgb(255, 125, 108);
+    }
+
+.square22 {
+    grid-area: 3 / 6 / span 1 / span 1;
+    background-color:rgb(255, 124, 107); 
+}
+
+    .square22:hover {
+        background-color:rgb(255, 116, 97);
+    }
+
+.square23 {
+    grid-area: 3 / 7 / span 1 / span 1;
+    background-color:rgb(255, 112, 92);
+}
+
+    .square23:hover {
+        background-color:rgb(255, 101, 81);
+    }
+
+.square24 {
+    grid-area: 3 / 8 / span 1 / span 1;
+    background-color:rgb(255, 105, 79); 
+}
+
+    .square24:hover {
+    background-color: rgb(255, 92, 64);
+  }
+
+
+
+  /*row 4*/
+.square25 {
+    grid-area: 4 / 1 / span 1 / span 1;
+    background-color: rgb(255, 178, 164);
+}
+
+    .square25:hover {
+        background-color:rgb(255, 165, 149);
+    }
+  
+.square26 {
+    grid-area: 4 / 2 / span 1 / span 1;
+    background-color:rgb(255, 171, 157);
+}
+    .square26:hover {
+        background-color:rgb(255, 154, 140);
+    }
+
+.square27 {
+    grid-area: 4 / 3 / span 1 / span 1;
+    background-color:rgb(255, 156, 138);
+}
+
+    .square27:hover {
+        background-color:rgb(255, 145, 125);
+    }
+
+.square28 {
+    grid-area: 4 / 4 / span 1 / span 1;
+    background-color:rgb(255, 144, 124);
+}
+
+    .square28:hover {
+        background-color:rgb(255, 130, 108);
+    }
+
+.square29 {
+    grid-area: 4 / 5 / span 1 / span 1;
+    background-color:rgb(255, 133, 111);
+}
+
+    .square29:hover {
+        background-color:rgb(255, 115, 96);
+    }
+
+.square30 {
+    grid-area: 4 / 6 / span 1 / span 1;
+    background-color:rgb(255, 121, 97); 
+}
+
+    .square30:hover {
+        background-color:rgb(255, 108, 82);
+    }
+
+.square31 {
+    grid-area: 4 / 7 / span 1 / span 1;
+    background-color:rgb(255, 107, 81);
+}
+
+    .square31:hover {
+        background-color:rgb(255, 98, 78);
+    }
+
+.square32 {
+    grid-area: 4 / 8 / span 1 / span 1;
+    background-color:rgb(255, 95, 67); 
+}
+
+    .square32:hover {
+    background-color: rgb(255, 81, 50);
+  }

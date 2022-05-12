@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<body>
+    <!--AUDIO ROW 1 "Miroirs: III Une Baroque sur 'océan" Maurice Ravel in A major, F# minor-->
+		<!-- high E, high C#, high G#, middle F#, high E, high C#, high G#, middle F#-->
+
+		<!--AUDIO ROW 2 "Clair de Lune, L.32" Claude Debussy in Db major-->
+      <!--middle C#, middle F, middle F#, middle F, middle A#, middle F, middle D#, middle F-->
+
+		<!--AUDIO ROW 3 "Première Gymnopédie" Erik Satie in G major-->
+      <!--high A,  high G, middle F#, middle Db, middle B, middle Db, middle D, middle A-->
+
+      <!--AUDIO ROW 4 "The Well Tempered Clavier: Book 1 BWV 846" JS Bach in C major-->
+      <!-- high bass C, high bass E, middle G, middle C, middle E, middle G, middle C, middle E-->
+
+    <audio id="my-audio">
+        <source src="assets/HighE.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div class="parentgrid">
+
+    <!--AUDIO ROW 1 "Miroirs: III Une Baroque sur 'océan" Maurice Ravel in A major, F# minor-->
+	<!-- high E, high C#, high G#, middle F#, high E, high C#, high G#, middle F#-->
+        <button class="square1" onmouseover="cs_change_music('assets/HighE.mp3');"></button>
+        <button class="square2" onmouseover="cs_change_music('assets/HighCSharp.mp3');"></button>
+        <button class="square3" onmouseover="cs_change_music('assets/HighGSharp.mp3');"></button>
+        <button class="square4" onmouseover="cs_change_music('assets/MiddleFSharp.mp3');"></button>
+        <button class="square5" onmouseover="cs_change_music('assets/HighE.mp3');"></button>
+        <button class="square6" onmouseover="cs_change_music('assets/HighCSharp.mp3');"></button>
+        <button class="square7" onmouseover="cs_change_music('assets/HighGSharp.mp3');"></button>
+        <button class="square8" onmouseover="cs_change_music('assets/MiddleFSharp.mp3');"></button>
+
+    <!--AUDIO ROW 2 "Clair de Lune, L.32" Claude Debussy in Db major-->
+    <!--middle C#, middle F, middle F#, middle F, high A#, middle F, middle D#, middle F-->
+        <button class="square9" onmouseover="cs_change_music('assets/MiddleCSharp.mp3');"></button>
+        <button class="square10" onmouseover="cs_change_music('assets/MiddleF.mp3');"></button>
+        <button class="square11" onmouseover="cs_change_music('assets/MiddleFSharp.mp3');"></button>
+        <button class="square12" onmouseover="cs_change_music('assets/MiddleF.mp3');"></button>
+        <button class="square13" onmouseover="cs_change_music('assets/HighASharp.mp3');"></button>
+        <button class="square14" onmouseover="cs_change_music('assets/MiddleF.mp3');"></button>
+        <button class="square15" onmouseover="cs_change_music('assets/MiddleDSharp.mp3');"></button>
+        <button class="square16" onmouseover="cs_change_music('assets/MiddleF.mp3');"></button>
+
+    <!--AUDIO ROW 3 "Première Gymnopédie" Erik Satie in G major-->
+    <!--high A,  high G, middle F#, middle Db, middle B, middle Db, middle D, middle A-->
+        <button class="square17" onmouseover="cs_change_music('assets/HighA.mp3');"></button>
+        <button class="square18" onmouseover="cs_change_music('assets/HighG.mp3');"></button>
+        <button class="square19" onmouseover="cs_change_music('assets/MiddleFSharp.mp3');"></button>
+        <button class="square20" onmouseover="cs_change_music('assets/MiddleCSharp.mp3');"></button>
+        <button class="square21" onmouseover="cs_change_music('assets/MiddleBFinal.mp3');"></button>
+        <button class="square22" onmouseover="cs_change_music('assets/MiddleCSharp.mp3');"></button>
+        <button class="square23" onmouseover="cs_change_music('assets/MiddleD.mp3');"></button>
+        <button class="square24" onmouseover="cs_change_music('assets/MiddleA.mp3');"></button>
+
+    <!--AUDIO ROW 4 "The Well Tempered Clavier: Book 1 BWV 846" JS Bach in C major-->
+    <!-- high bass C, high bass E, middle G, middle C, middle E, middle G, middle C, middle E-->
+        <button class="square25" onmouseover="cs_change_music('assets/BassC.mp3');"></button>
+        <button class="square26" onmouseover="cs_change_music('assets/BassE.mp3');"></button>
+        <button class="square27" onmouseover="cs_change_music('assets/MiddleG.mp3');"></button>
+        <button class="square28" onmouseover="cs_change_music('assets/MiddleC.mp3');"></button>
+        <button class="square29" onmouseover="cs_change_music('assets/MiddleE.mp3');"></button>
+        <button class="square30" onmouseover="cs_change_music('assets/MiddleG.mp3');"></button>
+        <button class="square31" onmouseover="cs_change_music('assets/MiddleC.mp3');"></button>
+        <button class="square32" onmouseover="cs_change_music('assets/MiddleE.mp3');"></button>
+    </div>
+
+    <script src="script.js"></script>
+     </body>
+     </html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head>
+<body>
+<audio id="my-audio" controls>
+  <source src="audio-files/HighA.mp3" type="audio/mpeg">
+</audio>
+
+<div class="parentgrid" style="display:grid;">
+<button onmouseover="cs_change_music('audio-files/HighA.mp3');">Play music 1</button>
+<button onmouseover="cs_change_music('audio-files/HighE.mp3');">Play music 2</button>
+<button onmouseover="cs_change_music('audio-files/MiddleFSharp.mp3');">Play music 3</button>
+<button onmouseover="cs_change_music('audio-files/MiddleA#.mp3');">Play music 4</button>
+<button onmouseover="cs_change_music('audio-files/MiddleFSharp.mp3');">Play music 5</button>
+<button onmouseover="cs_change_music('audio-files/MiddleA#.mp3');">Play music 6</button>
+<button onmouseover="cs_change_music('audio-files/MiddleD.mp3');">Play music 7</button>
+<button onmouseover="cs_change_music('audio-files/MiddleG.mp3');">Play music 8</button>
+
+</div>
+
+<script type="text/javascript">
+  
+   function cs_change_music(music)
+   { 
+     document.getElementById("my-audio").pause();
+     document.getElementById("my-audio").setAttribute('src', music);
+     document.getElementById("my-audio").load();
+     document.getElementById("my-audio").play();
+   }
+</script>
+</body>
+</html>

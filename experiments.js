@@ -1,74 +1,142 @@
-console.clear();
-var log = console.log.bind(console);
+console.log("Hello World")
+console.log("The base JS code of this project is credited to Play Sound on Hover on CodePen by Abi Rana.")
 
-var baseUrl = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/106114/";
 
-var vw = 630;
-var vh = 410;
+/*sound 1*/
 
-var app = new PIXI.Application(vw, vh, {
-  view: document.getElementById("canvas")
+var play1Btn = document.getElementById('play1'),
+  play2 = document.getElementById('play2'),
+  audio1 = document.getElementById('audio1')
+	audios = document.querySelectorAll('audio');
+console.log(audios);
+
+
+play1Btn.addEventListener('mouseover', function() {
+[].forEach.call(audios, function(audio) {
+  // do whatever
+  audio.play();
 });
+}, false);
 
-var loader = new PIXI.loaders.Loader(baseUrl)
-  .add("displacementMap", "displacementmap2.png?v=1")
-  .add("rocks", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/300px-PNG_transparency_demonstration_1.png")
-  .add("fish", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/300px-PNG_transparency_demonstration_1.png")
-  .load(init);
+play1Btn.addEventListener('mouseleave', function() {
+  audio1.pause();
+  audio1.currentTime = 0;
+}, false);
 
-function init(loader, resources) {
+play2Btn.addEventListener('mouseover', function() {
+    audio1.play();
+}, false);
+
+play3Btn.addEventListener('mouseleave', function() {
+  audio1.pause();
+  audio1.currentTime = 0;
+}, false);
+
+/*sound 2*/
+
+var play2Btn = document.getElementById('play2'),
+  play3Btn = document.getElementById('play3'),
+  audio2 = document.getElementById('audio2')
+	audios = document.querySelectorAll('audio');
+console.log(audios);
+
+
+play2Btn.addEventListener('mouseover', function() {
+[].forEach.call(audios, function(audio) {
+  // do whatever
+  audio.play();
+});
+}, false);
+
+play2Btn.addEventListener('mouseleave', function() {
+  audio2.pause();
+  audio2.currentTime = 0;
+}, false);
+
+play2Btn.addEventListener('mouseover', function() {
+    audio2.play();
+}, false);
+
+play2Btn.addEventListener('mouseleave', function() {
+  audio2.pause();
+  audio2.currentTime = 0;
+}, false);
+
+/*sound 3*/
+
+var play3Btn = document.getElementById("play3"),
+  sound3 = document.getElementById("sound3")
+	audios = document.querySelectorAll("audio");
+console.log(audios);
+
+
+play3Btn.addEventListener("mouseover", function() {
+[].forEach.call(audios, function(audio) {
+  // do whatever
+  audio.play();
+});
+}, false);
+
+play3Btn.addEventListener("mouseleave", function() {
+  sound3.pause();
+  sound3.currentTime = 0;
+}, false);
+
+/*sound 4*/
+
+var play4Btn = document.getElementById("play4"),
+  sound4 = document.getElementById("sound4")
+	audios = document.querySelectorAll("audio");
+console.log(audios);
+
+play4Btn.addEventListener("mouseover", function() {
+[].forEach.call(audios, function(audio) {
+  // do whatever
+  audio.play();
+});
+}, false);
+
+play4Btn.addEventListener("mouseleave", function() {
+  sound4.pause();
+  sound4.currentTime = 0;
+}, false);
+
+/*sound 5*/
+
+  var play5Btn = document.getElementById("play5"),
+    sound5 = document.getElementById("sound5")
+    audios = document.querySelectorAll("audio");
+  console.log(audios);
   
-  var container = new PIXI.Container();
-  var background = new PIXI.Sprite(resources.rocks.texture);
-  var fish = new PIXI.Sprite(resources.fish.texture);
-  var displacementSprite = new PIXI.Sprite(resources.displacementMap.texture);
-  var displacementFilter = new PIXI.filters.DisplacementFilter(displacementSprite);
-    
-  fish.position.set(200, 100);
-  fish.interactive = true;
-  fish.buttonMode = true;
-  
-  fish
-    .on("pointerdown", onDragStart)
-    .on("pointerup", onDragEnd)
-    .on("pointerupoutside", onDragEnd)
-    .on("pointermove", onDragMove);  
-  
-  container.filterArea = new PIXI.Rectangle(0, 0, vw - 20, vh - 20);
-  container.filters = [displacementFilter];
-  displacementSprite.texture.baseTexture.wrapMode = PIXI.WRAP_MODES.REPEAT;
-  
-  container.position.set(-10);  
-  container.addChild(background);
-  container.addChild(fish);
-  container.addChild(displacementSprite);
-  app.stage.addChild(container);
-    
-  TweenMax.to(displacementSprite, 5, {
-    ease: Linear.easeNone,
-    repeat: -1,
-    x: 512,
-    y: 512
+  play5Btn.addEventListener("mouseover", function() {
+  [].forEach.call(audios, function(audio) {
+    // do whatever
+    audio.play();
   });
-}
+  }, false);
+  
+  play5Btn.addEventListener("mouseleave", function() {
+    sound5.pause();
+    sound5.currentTime = 0;
+  }, false);
 
-function onDragStart(event) {
-  this.data = event.data;  
-  this.lastPosition = this.data.getLocalPosition(this.parent);
-}
+/*sound 24*/
 
-function onDragMove() {
+var play24Btn = document.getElementById("play24"),
+  sound24 = document.getElementById("sound24")
+	audio = document.querySelectorAll("audio");
+console.log(audios);
 
-  if (this.lastPosition) {
+play24Btn.addEventListener("mouseover", function() {
+[].forEach.call(audios, function(audio) {
+  // do whatever
+  audio.play();
+});
+}, false);
 
-    var newPosition = this.data.getLocalPosition(this.parent);    
-    this.position.x += (newPosition.x - this.lastPosition.x);
-    this.position.y += (newPosition.y - this.lastPosition.y);
-    this.lastPosition = newPosition;
-  }
-}
+play24Btn.addEventListener("mouseleave", function() {
+  sound24.pause();
+  sound24.currentTime = 0;
+}, false);
 
-function onDragEnd() {
-  this.data = null;
-  this.lastPosition = null;
-}
+
